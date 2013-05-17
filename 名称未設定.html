@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WorldMapDemo</title>
+</head>
+<body>
+<img id="you1" src="img/st-stephens.jpg" width="100px">
+<script type="text/javascript" src="JS/jquery.js"></script>
+<script type="text/javascript">
+//hoverprogram
+
+
+
+
+//define zoom function
+function changesitu(situ){
+	switch(situ){
+		case 1:
+			$("#you1").click(function(){
+			alert("wmnow");
+			})			
+			
+		break;
+		
+		case 2:
+			$("#you1").click(function(){
+			document.write("amnow");
+			})
+			
+			
+		break;
+		
+		case 3:
+			$("#you1").click(function(){
+				document.write("cmnow");
+			})
+
+		
+	}
+}
+//call hovfunc
+function clickbigfunc(i,s){
+	$("#you"+i).click(function(){
+	$('#you'+i).animate({
+width: '+=200',
+left: '+=200',
+height: '+=200'
+}, 500, function() {
+// Animation complete.
+});
+	});
+	s++;
+	return s;
+}
+zoom(clickbigfunc(1,1));
+</script>
+</body>
+</html>

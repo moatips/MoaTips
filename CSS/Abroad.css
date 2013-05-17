@@ -1,0 +1,100 @@
+@charset"UTF-8"
+
+body{
+	font-size: 22px;
+	font-family: 'Osaka',serif;
+}
+#Container{
+	width: 1350px;
+	margin: auto;
+}
+
+
+/*Topのメインコンテンツ*/
+
+#MainContent{
+	width: 1000px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: right;
+	z-index: 1;
+}
+#wmback{
+	position: absolute;
+	left: 300px;
+}
+#areas{
+	width: 800px;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	background-color: aqua;
+}
+#area1{
+	position: absolute;
+	left: 75px;
+	top: 107px;
+}
+
+#area2{
+	position: absolute;
+	left: 90px;
+	top: 250px;
+}#area3{
+	position: absolute;
+	left: 215px;
+	top: 72px;
+}#area4{
+	position: absolute;
+	left: 333px;
+	top: 255px;
+}#area5{
+	position: absolute;
+	left: 660px;
+	top: 90px;
+}#area6{
+	position: absolute;
+	left: 880px;
+	top: 310px;
+}#area7{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}#area8{
+	position: absolute;
+	left: 350px;
+	top: 0px;
+}#area9{
+	position: absolute;
+	left: 400px;
+	top: 0px;
+}
+#couns{
+	position: relative;
+	left: 0px;
+	top: -230px;
+	z-index: 10;
+	width: 800px;
+	background-color: blue;
+}
+#uniAicons{
+	width: 800px;
+	position:absolute;
+	left: 0px;
+	top: 0px; 
+	z-index: 10;
+	background-color: gray;
+}
+#uniCicons{
+	width: 800px;
+	position:absolute;
+	left: 0px;
+	top: 0px; 
+	z-index: 10;	
+	background-color: green;
+}
+
+a:link{	text-decoration: none;color: gray;}
+A:visited { text-decoration:none; color:black; }
+A:active { text-decoration:none; color:black; }
+A:hover { text-decoration:none; color:black; }

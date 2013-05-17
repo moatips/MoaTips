@@ -1,0 +1,90 @@
+@charset"UTF-8"
+
+#AccountInfo{
+	text-align: center;
+	width: 250px;
+	height: 500px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 0px;
+	border-left-color: #ef741b;
+	border-bottom-width: 0px;
+	border-right-width: 5px;
+	border-top-width: 0px;
+	border-top-color: #AAAAAA;
+	border-right-color: #080880;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	position: relative;
+	left: 0px;
+}
+#AccountTitle{
+	font-size: 30px;
+	color: green;
+	margin-bottom: 20px;
+
+}
+#AccountContent{
+	text-align: left;
+}
+#buy{
+	text-align: center;
+	width: 442px;
+	height: 500px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 0px;
+	border-left-color: #ef741b;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	position: relative;
+	left: 272px;
+	top:-503px;
+}
+#BuyTitle{
+	font-size: 30px;
+	color: green;
+	margin-bottom: 20px;
+
+}
+#BuyContent{
+	
+}
+#answer{
+	text-align: center;
+	width: 250px;
+	height: 500px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-color: #080880;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 5px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	position: relative;
+	top: -1006px;
+	left: 750px;
+}
+#AnswerTitle{
+	font-size: 30px;
+	color: green;
+	margin-bottom: 20px;
+}
+#AnswerContent{
+	
+}

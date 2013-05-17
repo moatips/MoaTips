@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WorldMapDemo</title>
+<style>
+div {
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+z-index: 0;
+
+}
+#d1{
+	position: absolute;
+	width:100px;
+	top:0px;
+	left: 0px;
+	z-index: 40;
+}
+#d2{
+	position: absolute;
+	width:100px;
+	top:0px;
+	left: 100px;
+	z-index:30;
+}
+#d3{
+	position: absolute;
+	width:100px;
+	top:100px;
+	left: 0px;
+	z-index: 20;
+	
+}
+#d4{
+	position: absolute;
+	width:100px;
+	top:100px;
+	left: 100px;
+	z-index: 10;
+}
+#you1{
+position: absolute;
+z-index: 40;
+
+}
+#you2{
+	position: absolute;
+	z-index:30;
+
+}
+#you3{
+	z-index: 20;
+
+	
+}
+#you4{
+	z-index: 10;
+}
+</style>
+
+</head>
+<body style="background-image : url(img/60762_603371279679852_1921970186_n.jpg)">
+<div>
+<div id="d1"><img id="you1" src="img/st-stephens.jpg" width="100px"></div>
+<div id="d2"><img id="you2" src="img/st-stephens.jpg" width="100px"></div>
+<div id="d3"><img id="you3" src="img/st-stephens.jpg" width="100px"></div>
+<div id="d4"><img id="you4" src="img/st-stephens.jpg" width="100px"></div>
+</div>
+<script type="text/javascript" src="JS/jquery.js"></script>
+<script type="text/javascript">
+//define hoverfunc
+function hoverfunc(i){
+	$("#you"+i).hover(function(){
+	$('#you'+i).attr('src','img/i_mangokudojyoutsunagi_188-250_e-620.jpg')},function(){
+	$('#you'+i).attr('src','img/st-stephens.jpg')}
+);
+}
+
+//carry out hoverfunc
+
+//define clickbigfunc
+function clickbigfunc(i){
+	
+	$("#you"+i).click(function(){
+	$('#you'+i).animate({
+width: '+=200',
+left: '+=200',
+height: '+=200'
+}, 500, function() {
+// Animation complete.
+});
+	});
+	
+}
+//do
+
+//define backfunc
+function backfunc(i){
+	$("#you"+i).click(function(){
+		$("#you"+i).fadeOut();
+	})
+	
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+<title>NewProject</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="CSS/Top.css" type="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+</head>
+<body style="background-image : url(img/a9.png)">
+<div id="Container">
+
+<div id="Sidebar">
+<div id="SideContent1">
+<div id="SideLogo">
+<img src="img/uniA1-b.jpg" width="184px">
+</div>
+<div id="SideName">
+Name:
+</div>
+<div id="SidePoint">
+Point:
+</div></a>
+</div>
+<div id="SideContent2">
+<a href="">
+<div id="SideMypage" class="Side">
+マイページ
+</div></a>
+<a href="">
+<div id="SideAnswer" class="Side">
+回答する
+</div></a>
+</div>
+
+<div id="SideContent3">
+<a href="">
+<div id="SideClass" class="Side">
+授業
+</div></a>
+<a href="">
+<div id="SideAbroad" class="Side">
+留学
+</div></a>
+<a href="">
+<div id="SideCircle" class="Side">
+サークル
+</div></a>
+<a href="">
+<div id="SideNewProject" class="Side">
+新企画
+</div></a>
+</div>
+
+<div id="SideContent4">
+<a href="">
+<div id="SideRule" class="Side">
+利用規約</div></a>
+<a href="">
+<div id="SideBeginner" class="Side">
+初めての方へ</div></a>
+<a href="">
+<div id="SideOpinion" class="Side">
+ご意見板</div></a>
+<a href="">
+<div id="SideLogout" class="Side">
+ログアウト</div></a>
+
+</div>
+</div>
+
+<div id="MainContent">
+<div id="NewProject">
+<h1 id="NewProjectTitle">アイディア、広げてみませんか？ </h1>
+</div>
+<p id="NewProjectDescri">
+このページは、新しいイベント・団体を立ち上げたい人が、学生みんなにＰＲするためのものです。こんなことを計画中！！こんな人募集！！など学生に伝えやすくします。
+
+学祭で何かを成し遂げてみたいとき、普段の生活でチャレンジしたいことができたとき、ここに中にあなたの探していたものがあるかもしれません。
+
+このページで自分のアイディアを広めたい方は、下の回答ボタンクリック！ フォーマットに企画の名前・代表者の連絡先・活動する目的・活動期間はいつからか・新規メンバー募集要項、PRしたい内容を記入して、送信ボタンでMOAに送ってください。 
+</p>
+
+<div id="AnswerProject">
+<img id="AnswerProjectimg" src="img/button/Answer/answer1-1.png">
+</div>
+
+<div id="SeeProject">
+<img id="SeeProjectimg" src="img/button/SeeTips/seetips1-1.png">
+</div>
+</div>
+
+</div>
+</div>
+<script type="text/javascript" src="JS/jquery.js"></script>
+<script type="text/javascript">
+$(".Side").hover(
+	function(){
+		$(this).css('background-color','#d4f4fc');
+	},function(){
+		$(this).css('background-color','white');
+
+	}
+)
+
+$("#SeeProjectimg").hover(function(){
+	$(this).attr('src','img/button/SeeTips/seetips1-2.png');
+},function(){
+	$(this).attr('src','img/button/SeeTips/seetips1-1.png');
+})
+
+$("#AnswerProjectimg").hover(function(){
+	$(this).attr('src','img/button/Answer/answer1-2.png');
+},function(){
+	$(this).attr('src','img/button/Answer/answer1-1.png');
+})
+</script>
+</body>
+</html>

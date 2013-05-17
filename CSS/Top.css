@@ -1,0 +1,585 @@
+@charset"UTF-8"
+
+body{
+	font-size: 22px;
+}
+#Container{
+	width: 1350px;
+	margin-right:auto;
+	margin-left: auto;
+	}
+	
+#Sidebar{
+	width: 190px;
+	height: 900px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	border-right:solid;
+	border-right-width: 2px;
+	border-color: #BAD7B6;	
+	padding-right: 3px;
+	z-index: 1;
+	
+	
+}
+#SideContent1{
+	width: 184px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-bottom: 8px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color:  #BAD7B6;
+}
+#SideLogo{
+	width: 184px;	
+}
+#SideName{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #f77904;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+	}
+#SidePoint{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border-style: solid;
+	border-left-width: 14px;
+	border-left-color:#f77904;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+}
+#SideContent2{
+	width: 184px;
+	margin-top: 8px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-bottom: 8px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #BAD7B6;
+}
+#SideMypage{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #080880;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+
+}
+#SideAnswer{	
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #080880;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+
+}
+#SideContent3{
+	width: 184px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #BAD7B6;
+}
+#SideClass{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #080880;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+}
+
+#SideAbroad{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #080880;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+}
+#SideCircle{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #080880;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+}
+#SideNewProject{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: #080880;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+}
+#SideContent4{
+	width: 184px;
+	margin-top: 8px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	
+	
+
+}
+#SideRule{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: green;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+
+}
+#SideBeginner{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: green;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+
+}
+#SideOpinion{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: green;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+
+}
+#SideLogout{
+	text-align: center;
+	width: 155px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 14px;
+	border-left-color: green;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	padding-left: 8px;
+	background-color:white;	
+
+} 
+/*Topのメインコンテンツ*/
+
+#MainContent{
+	width: 1000px;
+	margin-top: 5px;
+	margin-right: 80px;
+	float: right;
+	z-index: 1;
+}
+#Head{
+	font-size: 50px;
+	color: green;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: #080880;
+	border-bottom-width: 10px;
+	border-top-width: 0px;
+	padding-left: 8px;	
+	padding-bottom: 50px;
+
+}
+
+a:link{	text-decoration: none;color: gray;}
+A:visited { text-decoration:none; color:black; }
+A:active { text-decoration:none; color:black; }
+A:hover { text-decoration:none; color:black; }
+
+.inputdes{
+	width: 400px;
+	margin: 10px;
+}
+.inputbox{
+	margin: 10px;
+}
+.textarea{
+	font-size: 15px;
+}
+.selectarea{
+	font-size:20px;
+}
+
+/*Mypage Start*/
+
+
+#AccountInfo{
+	text-align: center;
+	width: 250px;
+	height: 500px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 0px;
+	border-left-color: #ef741b;
+	border-bottom-width: 0px;
+	border-right-width: 5px;
+	border-top-width: 0px;
+	border-top-color: #AAAAAA;
+	border-right-color: #080880;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	position: relative;
+	left: 0px;
+}
+#AccountTitle{
+	font-size: 30px;
+	color: green;
+	margin-bottom: 20px;
+
+}
+#AccountContent{
+	text-align: left;
+}
+#buy{
+	text-align: center;
+	width: 442px;
+	height: 500px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-width: 0px;
+	border-left-color: #ef741b;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	position: relative;
+	left: 272px;
+	top:-503px;
+}
+#BuyTitle{
+	font-size: 30px;
+	color: green;
+	margin-bottom: 20px;
+
+}
+#BuyContent{
+	
+}
+#answer{
+	text-align: center;
+	width: 250px;
+	height: 500px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border: solid;
+	border-left-color: #080880;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 5px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	position: relative;
+	top: -1006px;
+	left: 750px;
+}
+#AnswerTitle{
+	font-size: 30px;
+	color: green;
+	margin-bottom: 20px;
+}
+#AnswerContent{
+	
+}
+
+/*Mypage End*/
+
+
+/*Abroad Start*/
+
+#wmback{
+	position: absolute;
+	left: 300px;
+}
+#areas{
+	width: 800px;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+	background-color: aqua;
+}
+#area1{
+	position: absolute;
+	left: 75px;
+	top: 107px;
+}
+
+#area2{
+	position: absolute;
+	left: 90px;
+	top: 250px;
+}#area3{
+	position: absolute;
+	left: 215px;
+	top: 72px;
+}#area4{
+	position: absolute;
+	left: 333px;
+	top: 255px;
+}#area5{
+	position: absolute;
+	left: 660px;
+	top: 90px;
+}#area6{
+	position: absolute;
+	left: 820px;
+	top: 265px;
+}#area7{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}#area8{
+	position: absolute;
+	left: 350px;
+	top: 0px;
+}#area9{
+	position: absolute;
+	left: 400px;
+	top: 0px;
+}
+#couns{
+	position: relative;
+	left: 0px;
+	top: -230px;
+	z-index: 10;
+	width: 800px;
+	background-color: blue;
+}
+#uniAicons{
+	width: 800px;
+	position:absolute;
+	left: 0px;
+	top: 0px; 
+	z-index: 10;
+	background-color: gray;
+}
+#uniCicons{
+	width: 800px;
+	position:absolute;
+	left: 0px;
+	top: 0px; 
+	z-index: 10;	
+	background-color: green;
+}
+
+/*Abroad End*/
+
+/*Circles start*/
+#Circle{
+	width: 950px;
+}
+#CircleTitle{
+}
+#CircleDescri{
+}
+#CultureCircles{
+	float: left;
+	width: 450px;
+}
+#CultureCirclesTitle{
+}
+#SportsCircles{
+	width: 450px;
+	float: right;
+}
+#SportsCirclesTitle{
+}
+/*Circles End*/
+
+
+/*NewProject Start*/
+#NewProject{
+	
+}
+#NewProjectTitle{
+	
+}
+#NewProjectDescri{
+	margin-bottom: 50px;
+}
+#AnswerProject{
+	text-align: center;
+	width: 450px;
+	float: right;
+}
+#AnswerProjectimg{
+	
+}
+#SeeProject{
+	text-align: center;
+	width: 450px;
+	float: left;
+}
+#SeeProjectimg{
+	
+}
+/*NewProject End*/
+
+/*Opinion Start*/
+#Opinion{
+	
+}
+#OpinionTitle{
+	
+}
+#OpinionForm{
+	
+}
+#OpinionInputLeft{
+	width: 450px;
+	float: left;
+}
+#OpinionInputRight{
+	width: 450px;
+	float: right;
+}
+#OpinionSubmitimg{
+	float: right;
+}
+
+/*Opinion End*/
