@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+<title>ClubCircleExample</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="../../CSS/Top.css" type="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+</head>
+<body style="background-image : url(../../img/a9.png)">
+<div id="Container">
+
+<div id="Sidebar">
+<div id="SideContent1">
+<div id="SideLogo">
+<img src="../../img/uniA1-b.jpg" width="184px">
+</div>
+<div id="SideName">
+Name:
+</div>
+<div id="SidePoint">
+Point:
+</div></a>
+</div>
+<div id="SideContent2">
+<a href="">
+<div id="SideMypage" class="Side">
+マイページ
+</div></a>
+<a href="">
+<div id="SideAnswer" class="Side">
+回答する
+</div></a>
+</div>
+
+<div id="SideContent3">
+<a href="">
+<div id="SideClass" class="Side">
+授業
+</div></a>
+<a href="">
+<div id="SideAbroad" class="Side">
+留学
+</div></a>
+<a href="">
+<div id="SideCircle" class="Side">
+サークル
+</div></a>
+<a href="">
+<div id="SideNewProject" class="Side">
+新企画
+</div></a>
+</div>
+
+<div id="SideContent4">
+<a href="">
+<div id="SideRule" class="Side">
+利用規約</div></a>
+<a href="">
+<div id="SideBeginner" class="Side">
+初めての方へ</div></a>
+<a href="">
+<div id="SideOpinion" class="Side">
+ご意見板</div></a>
+<a href="">
+<div id="SideLogout" class="Side">
+ログアウト</div></a>
+</div>
+</div>
+
+<div id="MainContent">
+
+<div id="TopTitle">
+あなたの答えでできてます。MoaTips。
+</div>
+<div id="TopBeginner">
+Beginner</div>
+<div id="TopAbroad">
+Abroad</div>
+<div id="TopCircle">
+Circle</div>
+<div id="TopNewProject">
+NewProject</div>
+</div>
+
+</div>
+<script type="text/javascript" src="../../JS/jquery.js"></script>
+<script type="text/javascript">
+$(".Side").hover(
+	function(){
+		$(this).css('background-color','#e3fadb');
+	},function(){
+		$(this).css('background-color','white');
+
+	}
+)
+</script>
+</body>
+</html>

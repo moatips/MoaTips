@@ -1,10 +1,10 @@
 @charset"UTF-8"
 
 body{
-	font-size: 22px;
-}
+	}
 #Container{
 	width: 1350px;
+	font-size: 22px;
 	margin-right:auto;
 	margin-left: auto;
 	}
@@ -322,11 +322,15 @@ A:active { text-decoration:none; color:black; }
 A:hover { text-decoration:none; color:black; }
 
 .inputdes{
-	width: 400px;
-	margin: 10px;
+	width: 600px;
+	padding: 10px;
+	background-color: #cde0fb;
+	border: 0px;
 }
 .inputbox{
-	margin: 10px;
+	width: 600px;
+	padding:10px;
+	background-color: #EBF9F3;
 }
 .textarea{
 	font-size: 15px;
@@ -334,7 +338,12 @@ A:hover { text-decoration:none; color:black; }
 .selectarea{
 	font-size:20px;
 }
-
+tr{
+	
+}
+td{
+	
+}
 /*Mypage Start*/
 
 
@@ -531,6 +540,9 @@ A:hover { text-decoration:none; color:black; }
 }
 /*Circles End*/
 
+/*ClubCircleList Start*/
+
+/*ClubCircleList End*/
 
 /*NewProject Start*/
 #NewProject{
@@ -560,26 +572,45 @@ A:hover { text-decoration:none; color:black; }
 }
 /*NewProject End*/
 
-/*Opinion Start*/
+/*Form Start*/
 #Opinion{
 	
 }
 #OpinionTitle{
-	
+	margin-top: 30px;
+	text-shadow: 2px 2px 5px gray;
 }
 #OpinionForm{
 	
 }
 #OpinionInputLeft{
-	width: 450px;
+	width: 600px;
+	margin-top: 30px;
 	float: left;
 }
 #OpinionInputRight{
 	width: 450px;
 	float: right;
 }
+#OpinionInputCenter{
+	width: 600px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #OpinionSubmitimg{
-	float: right;
+	margin-top: 30px;
+	position: relative;
+	left:170px;
+}
+#OpinionSubmitimgNPanswer{
+	margin-top: 30px;
+	position: relative;
+	left: 300px;
+	top:0px;
+}
+#OpinionEnd{
+	clear: both;
 }
 
 /*Opinion End*/
