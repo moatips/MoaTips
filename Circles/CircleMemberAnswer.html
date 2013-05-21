@@ -109,7 +109,7 @@ Point:
 	<option class="selectarea" value="3">よい</option>
 	<option class="selectarea" value="4">とてもよい</option>
 		</select></div>
-	<input type="image" id="OpinionSubmitimgNPanswer" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="150px">
+	<input type="image" id="OpinionSubmitimgNPanswer" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="150px" height="70px">
 </div>
 	</form>
 </div>
@@ -129,6 +129,12 @@ $(".Side").hover(
 
 	}
 )
+
+$("#OpinionSubmitimgNPanswer").hover(function(){
+	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-2.png');
+},function(){
+	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-1.png');	
+})
 </script>
 </body>
 </html>

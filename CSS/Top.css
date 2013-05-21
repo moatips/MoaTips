@@ -438,6 +438,15 @@ td{
 
 /*Mypage End*/
 
+/*Answer Start*/
+
+/*Answer End*/
+
+
+/*Class Start*/
+
+/*Class End*/
+
 
 /*Abroad Start*/
 
@@ -449,7 +458,7 @@ td{
 	width: 800px;
 	position: absolute;
 	left: 240px;
-	top: 0px;
+	top: 120px;
 	background-color: aqua;
 }
 #area1{
@@ -538,36 +547,86 @@ td{
 }
 #SportsCirclesTitle{
 }
-/*Circles End*/
 
 /*ClubCircleList Start*/
+.ClubCircleList{
+	width: 500px;
+	border: solid;
+	border-width: 0px;
+	border-left-width: 10px;
+	border-left-color: #9BBB59;
+}
+.ClubCircleImg{
+	width: 600px;
+	position: absolute;
+	z-index: -1;
+	left:800px;
+	top: 160px;
+	opacity: 0.7;
+	
+}
+.ClubCircleListTitle{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ClubCircleName{
+	color: white;
+	font-size: 40px;
+	text-shadow: 2px 2px 3px black;
+	position: relative;
+	z-index: 3;
+	top:-123px;
+	left: 15px;
+	margin-bottom: -70px;
+}
+.ClubCircleListContent{
+	margin-bottom: -80px;
+}
+.ClubCircleListCategory{
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	position: relative;
+	z-index: 3;
+	top:-73px;
+	left: 10px;
 
+}
+.ClubCircleListDifferent{
+	position: relative;
+	top:-73px;
+	left: 10px;
+
+}
 /*ClubCircleList End*/
 
+/*Circles End*/
+
+
+
 /*NewProject Start*/
-#NewProject{
+.NewProject{
 	
 }
-#NewProjectTitle{
+.NewProjectTitle{
 	
 }
-#NewProjectDescri{
+.NewProjectDescri{
 	margin-bottom: 50px;
 }
-#AnswerProject{
+.AnswerProject{
 	text-align: center;
 	width: 450px;
 	float: right;
 }
-#AnswerProjectimg{
+.AnswerProjectimg{
 	
 }
-#SeeProject{
+.SeeProject{
 	text-align: center;
 	width: 450px;
 	float: left;
 }
-#SeeProjectimg{
+.SeeProjectimg{
 	
 }
 /*NewProject End*/
@@ -613,4 +672,25 @@ td{
 	clear: both;
 }
 
-/*Opinion End*/
+/*Form End*/
+
+/*Rule Start*/
+#RuleTitle{
+	background-color: lime;
+}
+#RuleContent{
+	background-color: blue;
+}
+#RuleQuestionaire{
+	background-color: aqua;
+}
+#RuleOpenInfoManage{
+	background-color: gray;
+}
+#RuleAccountManage{
+	background-color: green;
+}
+.RuleContentTitles{
+	background-color: olive;
+}
+/*Rule End*/
