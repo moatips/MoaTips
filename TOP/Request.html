@@ -1,22 +1,116 @@
 <!DOCTYPE html>
 <head>
-<title>Moatips Request</title>
+<title>Request</title>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" href=".css" type="text/css">
+<link rel="stylesheet" href="../CSS/Top.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(img/60762_603371279679852_1921970186_n.jpg)">
-<div class="container">
-<h1>要望＆質問</h1>
-<p>ゆの説明文考案</p>
-<form>
-<textarea name="Question&Opinion" rows="4" cols="40"></textarea>
-<input type="image" src="img/Header_Logo.png" width="100px">
+<body style="background-image : url(../img/a9.png)">
+<div id="Container">
+
+<div id="Sidebar">
+<div id="SideContent1">
+<div id="SideLogo">
+<img src="../img/uniA1-b.jpg" width="184px">
+</div>
+<div id="SideName">
+Name:
+</div>
+<div id="SidePoint">
+Point:
+</div></a>
+</div>
+<div id="SideContent2">
+<a href="">
+<div id="SideMypage" class="Side">
+マイページ
+</div></a>
+<a href="">
+<div id="SideAnswer" class="Side">
+回答する
+</div></a>
+</div>
+
+<div id="SideContent3">
+<a href="">
+<div id="SideClass" class="Side">
+授業
+</div></a>
+<a href="">
+<div id="SideAbroad" class="Side">
+留学
+</div></a>
+<a href="">
+<div id="SideCircle" class="Side">
+サークル
+</div></a>
+<a href="">
+<div id="SideNewProject" class="Side">
+新企画
+</div></a>
+</div>
+
+<div id="SideContent4">
+<a href="">
+<div id="SideRule" class="Side">
+利用規約</div></a>
+<a href="">
+<div id="SideBeginner" class="Side">
+初めての方へ</div></a>
+<a href="">
+<div id="SideOpinion" class="Side">
+ご意見板</div></a>
+<a href="">
+<div id="SideLogout" class="Side">
+ログアウト</div></a>
+</div>
+</div>
+
+<div id="MainContent">
+
+<div id="Opinion">
+
+<div id="OpinionTitle">
+ご意見板
+</div>
+
+
+<div id="OpinionForm">
+<form action="">
+
+<div id="OpinionInputLeft">
+<div class="inputdes">MoaTipsのどういった部分を気に入っていますか？
+</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
+<div class="inputdes">MoaTipsのどこを改善してほしいですか？</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
+<div class="inputdes">追加してほしい機能 or 情報はありましたか？是非教えてください＾＾</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
+<div class="inputdes">その他に何か意見がありましたらご記入下さい。</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
+<input type="image" id="OpinionSubmitimg" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="300px">
+</div>
+
+
 </form>
 </div>
-<script type="text/javascript" src="jquery.js"></script>
+
+</div>
+
+</div>
+
+</div>
+<script type="text/javascript" src="../JS/jquery.js"></script>
 <script type="text/javascript">
+$(".Side").hover(
+	function(){
+		$(this).css('background-color','#e3fadb');
+	},function(){
+		$(this).css('background-color','white');
+
+	}
+)
 </script>
 </body>
 </html>

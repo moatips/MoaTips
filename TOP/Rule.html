@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>NewProject</title>
+<title>Rule</title>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <link rel="stylesheet" href="../CSS/Top.css" type="text/css">
@@ -64,32 +64,38 @@ Point:
 <a href="">
 <div id="SideLogout" class="Side">
 ログアウト</div></a>
-
 </div>
 </div>
 
 <div id="MainContent">
-<div class="NewProject">
-<h1 class="NewProjectTitle">アイディア、広げてみませんか？ </h1>
+
+<div id="RuleTitle">
+あなたの答えでできてます。MoaTips。
 </div>
-<p class="NewProjectDescri">
-このページは、新しいイベント・団体を立ち上げたい人が、学生みんなにＰＲするためのものです。こんなことを計画中！！こんな人募集！！など学生に伝えやすくします。
+<div id="RuleContent">
 
-学祭で何かを成し遂げてみたいとき、普段の生活でチャレンジしたいことができたとき、ここに中にあなたの探していたものがあるかもしれません。
+<div id="RuleQuestionaire">
+<p class="RuleContentTitles">アンケート回答内容</p>
+このサイトはみなさんがアンケートで答え、提供してくださった内容が反映されます。 アンケートでは、特定の個人・団体について、見る人に悪い印象を与えるような表現、特に恣意的と思われる感想など、他の方に迷惑がかかるような内容は控えてください。
 
-このページで自分のアイディアを広めたい方は、下の回答ボタンクリック！ フォーマットに企画の名前・代表者の連絡先・活動する目的・活動期間はいつからか・新規メンバー募集要項、PRしたい内容を記入して、送信ボタンでMOAに送ってください。 
-</p>
+MOAでアンケートをまとめるときにこのような内容があった場合、ページ掲載を検討します。場合によっては回答者本人に修正、あるいは掲載しないことになります。
 
-<div class="AnswerProject">
-<img class="AnswerProjectimg" src="../img/button/Answer/answer1-1.png">
-</div>
-
-<div class="SeeProject">
-<img class="SeeProjectimg" src="../img/button/SeeTips/seetips1-1.png">
-</div>
+なお、このサイトに掲載された内容について異議がある場合、必ずサイト管理者にお知らせください。 
 </div>
 
+<div id="RuleOpenInfoManage">
+<p class="RuleContentTitles">公開情報管理</p>
+このサイトはAIU生のための情報交換の場のです。AIU生以外にこのサイトを公開するのはどうかお控えください。 
 </div>
+
+<div id="RuleAccountManage">
+<p class="RuleContentTitles">アカウント管理</p>
+このサイトの個人アカウントは、基本的にAIUでの学籍番号を使用していただきます。パスワードなどの個人情報は厳重に管理をお願いします。なおこのサイトで登録された個人情報は、サイト運営上有事があった場合の連絡以外、管理者が使うことはありません。 
+</div>
+
+</div>
+</div>
+
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
 <script type="text/javascript">
@@ -101,18 +107,6 @@ $(".Side").hover(
 
 	}
 )
-
-$("#SeeProjectimg").hover(function(){
-	$(this).attr('src','../img/button/SeeTips/seetips1-2.png');
-},function(){
-	$(this).attr('src','../img/button/SeeTips/seetips1-1.png');
-})
-
-$("#AnswerProjectimg").hover(function(){
-	$(this).attr('src','../img/button/Answer/answer1-2.png');
-},function(){
-	$(this).attr('src','../img/button/Answer/answer1-1.png');
-})
 </script>
 </body>
 </html>

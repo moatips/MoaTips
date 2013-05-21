@@ -2,18 +2,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" href="CSS/Top.css" type="text/css">
+<link rel="stylesheet" href="../CSS/Top.css" type="text/css">
 
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <title>WorldMapDemo</title>
 </head>
-<body style="background-image : url(img/a9.png)">
+<body style="background-image : url(../img/a9.png)">
 <div id="Container">
 
 <div id="Sidebar">
 <div id="SideContent1">
 <div id="SideLogo">
-<img src="img/uniA1-b.jpg" width="184px">
+<img src="../img/uniA1-b.jpg" width="184px">
 </div>
 <div id="SideName">
 Name:
@@ -71,32 +71,31 @@ Point:
 
 <div id="MainContent">
 
+<h1 class="AbroadTitle">
+	
+</h1>
+
 <div id="wmback">
+<img id="wmbackimg" src="../img/wm/wmback.png" width="1000px">
 </div>
 
 <div id="areas">
-<img id="area1" class="area" src="img/wm/area1-1.png" width="200px" height="170px">
-<img id="area2" class="area" src="img/wm/area2-1.png" width="220px" height="220px">
-<img id="area3" class="area" src="img/wm/area3-1.png" width="470px" height="240px">
-<img id="area4" class="area" src="img/wm/area4-1.png" width="310px" height="250px">
-<img id="area5" class="area" src="img/wm/area5-1.png" width="350px" height="220px">
-<img id="area6" class="area" src="img/wm/area6-1.png" width="225px" height="270px">
-</div>
-
-地図→エリア→大学→（ページ飛ぶ）→閲覧回答全てを一つのページでできるようにする＝詰め込む
+<img id="area1" class="area" src="../img/wm/area1-1.png" width="200px" height="170px">
+<img id="area2" class="area" src="../img/wm/area2-1.png" width="220px" height="220px">
+<img id="area3" class="area" src="../img/wm/area3-1.png" width="470px" height="240px">
+<img id="area4" class="area" src="../img/wm/area4-1.png" width="310px" height="250px">
+<img id="area5" class="area" src="../img/wm/area5-1.png" width="350px" height="220px">
+<img id="area6" class="area" src="../img/wm/area6-1.png" width="225px" height="270px">
 </div>
 
 </div>
-<script type="text/javascript" src="JS/jquery.js"></script>
+
+</div>
+<script type="text/javascript" src="../JS/jquery.js"></script>
 <script type="text/javascript">
 //set z-index
 $("#areas").css('z-index','10');
 $("#wmback").css('z-index','1');
-for(i=1;i<=6;i++){
-	$("#sheet"+i).hide();
-}
-$("#uniCicons").hide();
-
 
 
 //sideeffect;hover
@@ -115,32 +114,15 @@ $(".Side").hover(
 //define hoverfunc
 function hoverarea(i){
 	$("#area"+i).hover(function(){
-	$('#area'+i).attr('src','img/wm/area'+i+'-2.png')},function(){
-	$('#area'+i).attr('src','img/wm/area'+i+'-1.png')}
-);
-}
-function hovercoun(i){
-	$("#coun"+i).hover(function(){
-	$('#coun'+i).attr('src','img/wm/coun'+i+'-2.png')},function(){
-	$('#coun'+i).attr('src','img/wm/coun'+i+'-1.png')}
-);
-
-}
-
-
-function hoveruniA(i){
-	$("#uniA"+i).hover(function(){
-	$('#uniA'+i).attr('src','img/wm/icon.png')},function(){
-	$('#uniA'+i).attr('src','img/wm/uniA'+i+'-s.png')}
+	$('#area'+i).attr('src','../img/wm/area'+i+'-2.png')},function(){
+	$('#area'+i).attr('src','../img/wm/area'+i+'-1.png')}
 );
 }
 
-function hoveruniC(i){
-	$("#uniC"+i).hover(function(){
-	$('#uniC'+i).attr('src','img/wm/icon.png')},function(){
-	$('#uniC'+i).attr('src','img/wm/uniC'+i+'-s.png')}
-);
-}
+
+
+
+
 
 </script>
 </body>
