@@ -3,10 +3,10 @@
 <title>CreateAccount</title>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" href="CSS/CreateAccount.css" type="text/css">
+<link rel="stylesheet" href="../CSS/CreateAccount.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(img/a9.png)">
+<body style="background-image : url(../img/a9.png)">
 <div class="container">
 <h2>
 アカウント作成
@@ -62,25 +62,22 @@
 <p><a href="">利用規約</a>※必ずお読みください</p>
 </div>
 <div id="CA">
-<input type="image" src="img/button/CreateAccount/CA3.png" id="CreateAccountButton" width="190px" height="50px">
+<input type="image" src="../img/button/CreateAccount/CA3.png" id="CreateAccountButton" width="190px" height="50px">
 </div>
 
 </div>
 
-<script type="text/javascript" src="JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
+
 $("#CreateAccountButton").hover(function(){
-	$(this).attr('src','img/button/CreateAccount/CA4.png');
+	$(this).attr('src','../img/button/CreateAccount/CA4.png');
 },function(){
-	$(this).attr('src','img/button/CreateAccount/CA3.png');
+	$(this).attr('src','../img/button/CreateAccount/CA3.png');
 });
 
-function IDandPassPlease(){
-	if (document.getElementById('ID').value='学籍番号記入'){
-		document.getElementById('ID').value='';
-	}
-	
-};
+
 
 </script>
 </body>

@@ -80,19 +80,25 @@ Point:
 
 <div id="OpinionInputCenter">
 <div class="inputdes">1.　活動の頻度はどのくらいですか </div>
-<div class="inputbox"><select class="textarea">
-	<option class="selectarea" value="1">あまり活動していない</option>
-	<option class="selectarea" value="2">時々活動している</option>
-	<option class="selectarea" value="3">適度に活動している</option>
-	<option class="selectarea" value="4">頻繁に活動している</option>
-		</select></div>
+<div class="inputbox">
+	<input type="checkbox" id="CircleMemberQ1-1" value="1"><label for="CircleMemberQ1-1" class="checkbox"> ほとんど活動してない</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ1-2" ><label for="CircleMemberQ1-2" class="checkbox"> 時々活動している</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ1-3" ><label for="CircleMemberQ1-3"class="checkbox"> そこそこ活動している</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ1-4" ><label for="CircleMemberQ1-4"class="checkbox"> 頻繁に活動している</label>
+</div>
 <div class="inputdes">2.　活動内容はどの程度充実していますか </div>
-<div class="inputbox"><select class="textarea">
-	<option class="selectarea" value="1">あまり充実していない</option>
-	<option class="selectarea" value="2">おおむね充実している</option>
-	<option class="selectarea" value="3">充実している</option>
-	<option class="selectarea" value="4">とても充実している</option>
-		</select></div>
+<div class="inputbox"><div class="inputbox">
+	<input type="checkbox" id="CircleMemberQ2-1"><label for="CircleMemberQ2-1" class="checkbox"> あまり充実してない</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ2-2" ><label for="CircleMemberQ2-2" class="checkbox"> わりと充実している</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ2-3" ><label for="CircleMemberQ2-3"class="checkbox"> 充実している</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ2-4" ><label for="CircleMemberQ2-4"class="checkbox"> とても充実している</label>
+</div></div>
 
 <div class="inputdes">3.　あなたの活動は忙しいですか </div>
 <div class="inputbox"><select class="textarea">
@@ -102,13 +108,6 @@ Point:
 	<option class="selectarea" value="4">とても忙しい</option>
 		</select></div>
 
-<div class="inputdes">4.　以上の項目などから総合的に評価をお願いします</div>
-<div class="inputbox"><select class="textarea">
-	<option class="selectarea" value="1">あまりよくない</option>
-	<option class="selectarea" value="2">おおむねよい</option>
-	<option class="selectarea" value="3">よい</option>
-	<option class="selectarea" value="4">とてもよい</option>
-		</select></div>
 	<input type="image" id="OpinionSubmitimgNPanswer" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="150px" height="70px">
 </div>
 	</form>
@@ -129,6 +128,11 @@ $(".Side").hover(
 
 	}
 )
+$(".checkbox").hover(function(){
+	$(this).css('opacity','0.7');
+},function(){
+	$(this).css('opacity','1.0');
+})
 
 $("#OpinionSubmitimgNPanswer").hover(function(){
 	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-2.png');
