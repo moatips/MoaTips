@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <head>
-<title>Moatips login</title>
+<title>login</title>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" href="CSS/login.css" type="text/css">
+<link rel="stylesheet" href="../CSS/login.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(img/a9.png)">
+<body style="background-image : url(../img/a9.png)">
 <div class="container">
 
  <div id="logoarea">
-  <img src="img/uniA1-b.jpg" width="700px" id="logo">
+  <img src="../img/uniA1-b.jpg" width="700px" id="logo">
  </div>
 
  <div id="IDPass">
@@ -24,7 +24,7 @@
   </div>
 
   <div id="login">
-   <input type="image" src="img/button/login/login1.png" id="loginimg" width="180px" height="60px">
+   <input type="image" src="../img/button/login/login1.png" id="loginimg" width="180px" height="60px">
   </div>
 
   </form>
@@ -42,7 +42,7 @@
   
  </div>
 </div>
-<script type="text/javascript" src="JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/jquery.js"></script>
 <script type="text/javascript">
 function IDandPassPlease(){
 	if (document.getElementById('ID').value='学籍番号記入'){
@@ -52,9 +52,9 @@ function IDandPassPlease(){
 };
 
 $("#loginimg").hover(function(){
-	$(this).attr('src','img/button/login/login2.png');
+	$(this).attr('src','../img/button/login/login2.png');
 },function(){
-	$(this).attr('src','img/button/login/login1.png');
+	$(this).attr('src','../img/button/login/login1.png');
 });
 
 $("#SecretQuestion").hover(function(){

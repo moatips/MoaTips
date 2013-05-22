@@ -81,18 +81,54 @@ Point:
 </p>
 
 <div class="AnswerProject">
-<img class="AnswerProjectimg" src="../img/button/Answer/answer1-1.png">
+<a href=""><img class="AnswerProjectimg" src="../img/button/Answer/answer1-1.png"></a>
 </div>
 
 <div class="SeeProject">
 <img class="SeeProjectimg" src="../img/button/SeeTips/seetips1-1.png">
+<div id="ProjectListBox">
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
+<a href="" class="project">MoaTips</a>
+<br>
 </div>
+
+</div>
+
 </div>
 
 </div>
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
 <script type="text/javascript">
+$("#ProjectListBox").hide();
+$(".SeeProjectimg").click(function(){
+	$("#ProjectListBox").slideToggle(200,function(){
+		
+	})
+})
+
 $(".Side").hover(
 	function(){
 		$(this).css('background-color','#e3fadb');
@@ -102,13 +138,13 @@ $(".Side").hover(
 	}
 )
 
-$("#SeeProjectimg").hover(function(){
+$(".SeeProjectimg").hover(function(){
 	$(this).attr('src','../img/button/SeeTips/seetips1-2.png');
 },function(){
 	$(this).attr('src','../img/button/SeeTips/seetips1-1.png');
 })
 
-$("#AnswerProjectimg").hover(function(){
+$(".AnswerProjectimg").hover(function(){
 	$(this).attr('src','../img/button/Answer/answer1-2.png');
 },function(){
 	$(this).attr('src','../img/button/Answer/answer1-1.png');

@@ -629,6 +629,13 @@ td{
 .SeeProjectimg{
 	
 }
+#ProjectListBox{
+	border: solid;
+	border-width: 0px 5px;
+}
+.project{
+	padding: 5px;
+}
 /*NewProject End*/
 
 /*Form Start*/
