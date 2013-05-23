@@ -328,9 +328,11 @@ A:hover { text-decoration:none; color:black; }
 	border: 0px;
 }
 .inputbox{
+	color: black;
 	width: 600px;
 	padding:10px;
 	background-color: #EBF9F3;
+	text-shadow: 2px 2px 5px rgba(147,209,203,0.47);
 }
 .textarea{
 	font-size: 15px;
@@ -447,7 +449,9 @@ td{
 
 
 /*Class Start*/
+/*AnswerClass Start*/
 
+/*AnswerClass End*/
 /*Class End*/
 
 
@@ -648,6 +652,12 @@ td{
 #OpinionTitle{
 	margin-top: 30px;
 	text-shadow: 2px 2px 5px gray;
+}
+#OpinionCenterTitle{
+	margin-top: 30px;
+	text-shadow: 2px 2px 5px gray;
+	position: relative;
+	left: 130px;
 }
 #OpinionForm{
 	

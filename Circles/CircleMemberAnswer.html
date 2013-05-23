@@ -71,23 +71,27 @@ Point:
 
 <div id="Opinion">
 
-<div id="OpinionTitle">
-フォーマットに企画の名前・代表者の連絡先・活動する目的・活動期間はいつからか・新規メンバー募集要項、PRしたい内容を記入して、"FinalAnswer?"ボタンでMOAに送ってください。
+<div id="OpinionCenterTitle">
+あなたの参加しているクラブ＆サークルについて教えてください。
+<br>
+クラブ&サークル名、参加頻度、充実度、雰囲気、面白みについて回答した上、
+<br>
+ファイナルアンサーボタンで送信して下さい。
 </div>
 
 <div id="OpinionForm">
 <form action="">
 
 <div id="OpinionInputCenter">
-<div class="inputdes">1.　活動の頻度はどのくらいですか </div>
+<div class="inputdes">1.　あなた参加頻度はどのくらいですか </div>
 <div class="inputbox">
-	<input type="checkbox" id="CircleMemberQ1-1" value="1"><label for="CircleMemberQ1-1" class="checkbox"> ほとんど活動してない</label>
+	<input type="checkbox" id="CircleMemberQ1-1" value="1"><label for="CircleMemberQ1-1" class="checkbox"> ほとんど参加してない</label>
 	<br>
-	<input type="checkbox" id="CircleMemberQ1-2" ><label for="CircleMemberQ1-2" class="checkbox"> 時々活動している</label>
+	<input type="checkbox" id="CircleMemberQ1-2" ><label for="CircleMemberQ1-2" class="checkbox"> 時々参加している</label>
 	<br>
-	<input type="checkbox" id="CircleMemberQ1-3" ><label for="CircleMemberQ1-3"class="checkbox"> そこそこ活動している</label>
+	<input type="checkbox" id="CircleMemberQ1-3" ><label for="CircleMemberQ1-3"class="checkbox"> そこそこ参加している</label>
 	<br>
-	<input type="checkbox" id="CircleMemberQ1-4" ><label for="CircleMemberQ1-4"class="checkbox"> 頻繁に活動している</label>
+	<input type="checkbox" id="CircleMemberQ1-4" ><label for="CircleMemberQ1-4"class="checkbox"> 頻繁に参加している</label>
 </div>
 <div class="inputdes">2.　活動内容はどの程度充実していますか </div>
 <div class="inputbox"><div class="inputbox">
@@ -100,15 +104,22 @@ Point:
 	<input type="checkbox" id="CircleMemberQ2-4" ><label for="CircleMemberQ2-4"class="checkbox"> とても充実している</label>
 </div></div>
 
-<div class="inputdes">3.　あなたの活動は忙しいですか </div>
-<div class="inputbox"><select class="textarea">
-	<option class="selectarea" value="1">ほとんど忙しくない</option>
-	<option class="selectarea" value="2">適度に忙しい</option>
-	<option class="selectarea" value="3">忙しい</option>
-	<option class="selectarea" value="4">とても忙しい</option>
-		</select></div>
+<div class="inputdes">3. 団体の雰囲気はどうですか？</div>
+<div class="inputbox">
+	<input type="checkbox" id="CircleMemberQ1-1" value="1"><label for="CircleMemberQ1-1" class="checkbox">あまりよくない</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ1-2" ><label for="CircleMemberQ1-2" class="checkbox"> 悪くはない</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ1-3" ><label for="CircleMemberQ1-3"class="checkbox"> わりといい</label>
+	<br>
+	<input type="checkbox" id="CircleMemberQ1-4" ><label for="CircleMemberQ1-4"class="checkbox"> とてもいい</label>
+</div>
 
-	<input type="image" id="OpinionSubmitimgNPanswer" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="150px" height="70px">
+
+<div class="inputdes">4. 活動のどこに面白みを感じていますか？</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows=3></textarea></div>
+
+	<input type="image" id="OpinionSubmitimgNPanswer" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="160px" height="80px">
 </div>
 	</form>
 </div>
@@ -128,8 +139,9 @@ $(".Side").hover(
 
 	}
 )
+
 $(".checkbox").hover(function(){
-	$(this).css('opacity','0.7');
+	$(this).css('opacity','0.5');
 },function(){
 	$(this).css('opacity','1.0');
 })
