@@ -74,44 +74,23 @@ Point:
 </div>
 <p class="NewProjectDescri">
 このページは、新しいイベント・団体を立ち上げたい人が、学生みんなにＰＲするためのものです。こんなことを計画中！！こんな人募集！！など学生に伝えやすくします。
-
-学祭で何かを成し遂げてみたいとき、普段の生活でチャレンジしたいことができたとき、ここに中にあなたの探していたものがあるかもしれません。
-
-このページで自分のアイディアを広めたい方は、下の回答ボタンクリック！ フォーマットに企画の名前・代表者の連絡先・活動する目的・活動期間はいつからか・新規メンバー募集要項、PRしたい内容を記入して、送信ボタンでMOAに送ってください。 
+<br>
+学祭で何かを成し遂げてみたいとき、普段の生活でチャレンジしたいことができたとき、
+<br>
+ここの中にあなたの探していたものがあるかもしれません。
+<br>
+このページで自分のアイディアを広めたい方は、下の回答ボタンクリック！ 
+<br>フォーマットに企画の名前・代表者の連絡先・活動する目的・活動期間はいつからか・新規メンバー募集要項、PRしたい内容を記入して、送信ボタンでMOAに送ってください。 
 </p>
 
 <div class="AnswerProject">
-<a href=""><img class="AnswerProjectimg" src="../img/button/Answer/answer1-1.png"></a>
+<a href=""><img class="AnswerProjectimg" src="../img/button/Answer/answer2-1.png"></a>
 </div>
 
 <div class="SeeProject">
-<img class="SeeProjectimg" src="../img/button/SeeTips/seetips1-1.png">
+<img class="SeeProjectimg" src="../img/button/SeeTips/seetips2-1.png">
 <div id="ProjectListBox">
-<br>
 <a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
-<a href="" class="project">MoaTips</a>
-<br>
 </div>
 
 </div>
@@ -121,34 +100,13 @@ Point:
 </div>
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
 $("#ProjectListBox").hide();
-$(".SeeProjectimg").click(function(){
-	$("#ProjectListBox").slideToggle(200,function(){
-		
-	})
-})
-
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
-
-	}
-)
-
-$(".SeeProjectimg").hover(function(){
-	$(this).attr('src','../img/button/SeeTips/seetips1-2.png');
-},function(){
-	$(this).attr('src','../img/button/SeeTips/seetips1-1.png');
-})
-
-$(".AnswerProjectimg").hover(function(){
-	$(this).attr('src','../img/button/Answer/answer1-2.png');
-},function(){
-	$(this).attr('src','../img/button/Answer/answer1-1.png');
-})
+clickslide(".SeeProjectimg","#ProjectListBox");
+opacity(".project");
+imgchange(".SeeProjectimg","SeeTips","seetips");
+imgchange(".AnswerProjectimg","Answer","answer");
 </script>
 </body>
 </html>

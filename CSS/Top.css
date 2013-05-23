@@ -3,6 +3,7 @@
 body{
 	}
 #Container{
+	
 	width: 1350px;
 	font-size: 22px;
 	margin-right:auto;
@@ -297,7 +298,8 @@ body{
 	margin-top: 5px;
 	margin-right: 80px;
 	float: right;
-	z-index: 1;
+	z-index: 1;	
+	text-shadow: 2px 2px 5px gray;
 }
 #Head{
 	font-size: 50px;
@@ -316,23 +318,31 @@ body{
 
 }
 
-a:link{	text-decoration: none;color: gray;}
+a:link{	text-decoration: none;color: black;}
 A:visited { text-decoration:none; color:black; }
 A:active { text-decoration:none; color:black; }
 A:hover { text-decoration:none; color:black; }
+
+.TopLetter{
+	width: 400px;
+	color: #f77904;
+	font-size: 60px;
+	background-color: white;
+}
 
 .inputdes{
 	width: 600px;
 	padding: 10px;
 	background-color: #cde0fb;
 	border: 0px;
+	text-shadow: 0px 0px 0px;
+
 }
 .inputbox{
 	color: black;
 	width: 600px;
 	padding:10px;
 	background-color: #EBF9F3;
-	text-shadow: 2px 2px 5px rgba(147,209,203,0.47);
 }
 .textarea{
 	font-size: 15px;
@@ -452,6 +462,49 @@ td{
 /*AnswerClass Start*/
 
 /*AnswerClass End*/
+
+/*ClassList Start*/
+.ClassList{
+	width: 500px;
+	border: solid;
+	border-width: 0px;
+	border-left-width: 10px;
+	border-left-color: #9BBB59;
+}
+.ClassListTitle{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ClassName{
+	color: white;
+	font-size: 40px;
+	text-shadow: 2px 2px 3px black;
+	position: relative;
+	z-index: 3;
+	top:-123px;
+	left: 15px;
+	margin-bottom: -70px;
+}
+.ClassListContent{
+	margin-bottom: -80px;
+}
+.ClassListCategory{
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	position: relative;
+	z-index: 3;
+	top:-73px;
+	left: 10px;
+
+}
+.ClassListDifferent{
+	position: relative;
+	top:-73px;
+	left: 10px;
+
+}
+/*ClassList End*/
+
 /*Class End*/
 
 
@@ -637,11 +690,18 @@ td{
 	
 }
 #ProjectListBox{
-	border: solid;
-	border-width: 0px 5px;
+	border:solid;
+	border-width: 2px;
+	border-color: #cdd4fd;
+	box-shadow: 0px 0px 10px gray;
+	padding: 30px;
 }
 .project{
-	padding: 5px;
+	font-size: 30px;
+	color: blue;
+	padding: 15px;
+	margin: 30px;
+	text-shadow: 2px 2px 5px gray;
 }
 /*NewProject End*/
 

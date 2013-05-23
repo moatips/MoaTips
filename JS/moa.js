@@ -5,6 +5,7 @@ function IDandPassPlease(){
 
 };
 
+//hoverside
 $(".Side").hover(
 	function(){
 		$(this).css('background-color','#e3fadb');
@@ -13,9 +14,32 @@ $(".Side").hover(
 
 	}
 )
+//hoveropacitychange
+function opacity(selector){
+	$(selector).hover(function(){
+	$(this).css('opacity','0.7');	
+},function(){
+	$(this).css('opacity','1.0');
+})
+}
+//hoverimg
+function imgchange(selector,imgfoldername,imgtype){
+	$(selector).hover(function(){
+	$(this).attr('src','../img/button/'+imgfoldername+'/'+imgtype+'2-2.png');
+},function(){
+	$(this).attr('src','../img/button/'+imgfoldername+'/'+imgtype+'2-1.png');
+})
+}
 
+//clickslide
+function clickslide(clicker, subject){
+	$(clicker).click(function(){
+	$(subject).slideToggle(200,function(){
+		
+	})
+})
+}
 
-//hide in the beginning
 
 
 //define hoverfunc
