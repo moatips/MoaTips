@@ -45,15 +45,15 @@ function clickslide(clicker, subject){
 //define hoverfunc
 function hoverarea(i){
 	$("#area"+i).hover(function(){
-	$('#area'+i).attr('src','img/wm/area'+i+'-2.png')},function(){
-	$('#area'+i).attr('src','img/wm/area'+i+'-1.png')}
+	$('#area'+i).attr('src','../img/wm/area'+i+'-2.png')},function(){
+	$('#area'+i).attr('src','../img/wm/area'+i+'-1.png')}
 );
 }
 
 
 function hoveruniA(i){
 	$("#uniA"+i).hover(function(){
-	$('#uniA'+i).attr('src','img/wm/icon.png')},function(){
-	$('#uniA'+i).attr('src','img/wm/uniA'+i+'.png')}
+	$('#uniA'+i).attr('src','../img/wm/icon.png')},function(){
+	$('#uniA'+i).attr('src','../img/wm/uniA'+i+'.png')}
 );
 }

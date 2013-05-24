@@ -1,9 +1,9 @@
 @charset"UTF-8"
 
 body{
-	}
+}
 #Container{
-	
+	font-family: "明朝";
 	width: 1350px;
 	font-size: 22px;
 	margin-right:auto;
@@ -303,19 +303,17 @@ body{
 }
 #Head{
 	font-size: 50px;
-	color: green;
+	color: black;
 	text-align: center;
-	margin-top: 30px;
-	margin-left: 3px;
-	margin-right: 3px;
-	margin-bottom: 50px;
-	border-style: solid;
-	border-color: #080880;
-	border-bottom-width: 10px;
-	border-top-width: 0px;
-	padding-left: 8px;	
-	padding-bottom: 50px;
-
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	border-style: groove;
+	border-width: 0px;
+	padding-left: 0px;	
+	padding-bottom: 0px;
+	box-shadow: 0px 0px 5px gray;
 }
 
 a:link{	text-decoration: none;color: black;}
@@ -373,18 +371,19 @@ td{
 	border-left-width: 0px;
 	border-left-color: #ef741b;
 	border-bottom-width: 0px;
-	border-right-width: 5px;
+	border-right-width: 0px;
 	border-top-width: 0px;
 	border-top-color: #AAAAAA;
 	border-right-color: #080880;
 	border-bottom-color: #ef741b;
 	padding-left: 8px;
-	position: relative;
-	left: 0px;
+	float: left;
+	box-shadow: 0px 0px 5px gray;
+	
 }
 #AccountTitle{
 	font-size: 30px;
-	color: green;
+	color: black;
 	margin-bottom: 20px;
 
 }
@@ -408,13 +407,13 @@ td{
 	border-right-color: #AAAAAA;
 	border-bottom-color: #ef741b;
 	padding-left: 8px;
-	position: relative;
-	left: 272px;
-	top:-503px;
+	float: left;
+	box-shadow: 0px 0px 5px gray;
+	
 }
 #BuyTitle{
 	font-size: 30px;
-	color: green;
+	color: black;
 	margin-bottom: 20px;
 
 }
@@ -433,18 +432,17 @@ td{
 	border-bottom-width: 0px;
 	border-right-width: 0px;
 	border-top-width: 0px;
-	border-left-width: 5px;
+	border-left-width: 0px;
 	border-top-color: #AAAAAA;
 	border-right-color: #AAAAAA;
 	border-bottom-color: #ef741b;
 	padding-left: 8px;
-	position: relative;
-	top: -1006px;
-	left: 750px;
+	float: left;
+	box-shadow: 0px 0px 5px gray;
 }
 #AnswerTitle{
 	font-size: 30px;
-	color: green;
+	color: black;
 	margin-bottom: 20px;
 }
 #AnswerContent{
@@ -459,6 +457,34 @@ td{
 
 
 /*Class Start*/
+.Classes{
+	
+}
+.ClassesTitle{
+	color: black;
+	border-bottom-style:groove;
+}
+.ClassesDescri{
+	
+}
+.AnswerClasses{
+	text-align: center;
+	width: 450px;
+	float: left;
+	margin-top: 40px;
+
+}
+.AnswerClassesimg{
+}
+.SeeClasses{
+	margin-top: 40px;
+	text-align: center;
+	width: 450px;
+	float: right;
+}
+.SeeClassesimg{
+}
+
 /*AnswerClass Start*/
 
 /*AnswerClass End*/
@@ -509,7 +535,16 @@ td{
 
 
 /*Abroad Start*/
-
+.AbroadTitle{
+	border-bottom-style:groove;
+}
+.AbroadDescri{
+	border-width: 0px 0px 0px 10px;
+	border-top-color: black;
+	border:solid;
+	position: relative;
+	top: 530px;
+}
 #wmback{
 	position: absolute;
 	left: 300px;
@@ -592,6 +627,7 @@ td{
 	width: 950px;
 }
 #CircleTitle{
+	border-bottom: groove;
 }
 #CircleDescri{
 }
@@ -600,12 +636,16 @@ td{
 	width: 450px;
 }
 #CultureCirclesTitle{
+	border-bottom-style:groove;
+
 }
 #SportsCircles{
 	width: 450px;
 	float: right;
 }
 #SportsCirclesTitle{
+	border-bottom-style:groove;
+
 }
 
 /*ClubCircleList Start*/
@@ -652,6 +692,7 @@ td{
 
 }
 .ClubCircleListDifferent{
+	font-size: 20px;
 	position: relative;
 	top:-73px;
 	left: 10px;
@@ -668,6 +709,7 @@ td{
 	
 }
 .NewProjectTitle{
+	border-bottom: groove;
 	
 }
 .NewProjectDescri{

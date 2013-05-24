@@ -72,51 +72,40 @@ Point:
 <div id="MainContent">
 
 <h1 class="AbroadTitle">
-みんなこんな大学行ってます。
+<font color="orange" size="70px">どこ</font>に行きますか？
 </h1>
+<p class="AbroadDescri">
+AIU生には必須の留学。 
+<br>
+大学生としても貴重な「一年」という時間は、やはり有意義に過ごしたいものです。
+<br>
+このページでは、過去に留学を経験した先輩達からお話を伺い、みなさんが知りたいこと、みなさんの役に立つ情報を掲載しています。
+<br>
+それぞれの大学でどんなキャンパスライフになるのか、どんな授業が取れるのか、また、現地での実際の生活はどんなものなのか。留学先を検討するうえで必要な情報をできる限り詳細に集めました。 また、自分が行く大学だけでなく友達が留学している大学についての情報も閲覧できます。
+<br>
+留学先を決めるために真剣な人も、現地のちょっとした生活を知りたい人も、ぜひご利用ください。 </p>
 
 <div id="wmback">
-<img id="wmbackimg" src="../img/wm/wmback.png" width="1000px">
 </div>
 
 <div id="areas">
-<img id="area1" class="area" src="../img/wm/area1-1.png" width="200px" height="170px">
-<img id="area2" class="area" src="../img/wm/area2-1.png" width="220px" height="220px">
-<img id="area3" class="area" src="../img/wm/area3-1.png" width="470px" height="240px">
-<img id="area4" class="area" src="../img/wm/area4-1.png" width="310px" height="250px">
-<img id="area5" class="area" src="../img/wm/area5-1.png" width="350px" height="220px">
-<img id="area6" class="area" src="../img/wm/area6-1.png" width="225px" height="270px">
+<a href=""><img id="area1" class="area" src="../img/wm/area1-1.png" width="200px" height="170px"></a>
+<a href=""><img id="area2" class="area" src="../img/wm/area2-1.png" width="220px" height="220px"></a>
+<a href=""><img id="area3" class="area" src="../img/wm/area3-1.png" width="470px" height="240px"></a>
+<a href=""><img id="area4" class="area" src="../img/wm/area4-1.png" width="310px" height="250px"></a>
+<a href=""><img id="area5" class="area" src="../img/wm/area5-1.png" width="350px" height="220px"></a>
+<a href=""><img id="area6" class="area" src="../img/wm/area6-1.png" width="225px" height="270px"></a>
 </div>
 
 </div>
 
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
 
 for(i=0;i<=6;i++){
 	hoverarea(i);
-}
-
-//sideeffect;hover
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
-
-	}
-)
-
-//hide in the beginning
-
-
-//define hoverfunc
-function hoverarea(i){
-	$("#area"+i).hover(function(){
-	$('#area'+i).attr('src','../img/wm/area'+i+'-2.png')},function(){
-	$('#area'+i).attr('src','../img/wm/area'+i+'-1.png')}
-);
 }
 
 
