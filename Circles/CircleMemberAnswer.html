@@ -106,13 +106,13 @@ Point:
 
 <div class="inputdes">3. 団体の雰囲気はどうですか？</div>
 <div class="inputbox">
-	<input type="checkbox" id="CircleMemberQ1-1" value="1"><label for="CircleMemberQ1-1" class="checkbox">あまりよくない</label>
+	<input type="checkbox" id="CircleMemberQ3-1" value="1"><label for="CircleMemberQ3-1" class="checkbox">あまりよくない</label>
 	<br>
-	<input type="checkbox" id="CircleMemberQ1-2" ><label for="CircleMemberQ1-2" class="checkbox"> 悪くはない</label>
+	<input type="checkbox" id="CircleMemberQ3-2" ><label for="CircleMemberQ3-2" class="checkbox"> 悪くはない</label>
 	<br>
-	<input type="checkbox" id="CircleMemberQ1-3" ><label for="CircleMemberQ1-3"class="checkbox"> わりといい</label>
+	<input type="checkbox" id="CircleMemberQ3-3" ><label for="CircleMemberQ3-3"class="checkbox"> わりといい</label>
 	<br>
-	<input type="checkbox" id="CircleMemberQ1-4" ><label for="CircleMemberQ1-4"class="checkbox"> とてもいい</label>
+	<input type="checkbox" id="CircleMemberQ3-4" ><label for="CircleMemberQ3-4"class="checkbox"> とてもいい</label>
 </div>
 
 
@@ -130,21 +130,9 @@ Point:
 
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
-
-	}
-)
-
-$(".checkbox").hover(function(){
-	$(this).css('opacity','0.5');
-},function(){
-	$(this).css('opacity','1.0');
-})
+opacity(".checkbox");
 
 $("#OpinionSubmitimgNPanswer").hover(function(){
 	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-2.png');

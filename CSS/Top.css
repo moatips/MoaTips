@@ -4,7 +4,7 @@ body{
 }
 #Container{
 	font-family: "明朝";
-	width: 1350px;
+	width: 1330px;
 	font-size: 22px;
 	margin-right:auto;
 	margin-left: auto;
@@ -22,6 +22,7 @@ body{
 	border-color: #BAD7B6;	
 	padding-right: 3px;
 	z-index: 1;
+	position: fixed;
 	
 	
 }
@@ -539,9 +540,13 @@ td{
 	border-bottom-style:groove;
 }
 .AbroadDescri{
-	border-width: 0px 0px 0px 10px;
-	border-top-color: black;
-	border:solid;
+	border: groove;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-top-color: gray;
 	position: relative;
 	top: 530px;
 }
@@ -657,12 +662,15 @@ td{
 	border-left-color: #9BBB59;
 }
 .ClubCircleImg{
-	width: 600px;
+	width: 510px;
+	height: 340px;
+	margin-top: 50px;
 	position: absolute;
 	z-index: -1;
-	left:800px;
+	left:820px;
 	top: 160px;
 	opacity: 0.7;
+	position: fixed;
 	
 }
 .ClubCircleListTitle{
