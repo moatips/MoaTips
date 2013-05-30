@@ -3,7 +3,6 @@
 body{
 }
 #Container{
-	font-family: "明朝";
 	width: 1330px;
 	font-size: 22px;
 	margin-right:auto;
@@ -23,9 +22,8 @@ body{
 	padding-right: 3px;
 	z-index: 1;
 	position: fixed;
-	
-	
 }
+
 #SideContent1{
 	width: 184px;
 	margin-top: 3px;
@@ -612,7 +610,7 @@ td{
 	width: 800px;
 	position:absolute;
 	left: 0px;
-	top: 0px; 
+	top: 100px; 
 	z-index: 10;
 	background-color: gray;
 }
@@ -624,6 +622,178 @@ td{
 	z-index: 10;	
 	background-color: green;
 }
+.area1icons{
+	float: left;
+}
+.area3icons{
+	float: left;
+}
+.areas{
+}
+.areatitlesheet{
+	float: right;
+	background-color: aqua;
+	width: 400px;
+	height: 400px;
+}
+.areatitles{
+	
+}
+#area1big{
+	
+}
+
+/*uniiconlist Start*/
+#uniA1{position:absolute; left:600px; top:450px;}/*o-sutoria FH Joanneum*/
+#uniA2{position:absolute; left:743px; top:580px;}/*kipurosu Intercollege*/
+#uniA3{position:absolute; left:730px; top:580px;}/*kipurosu University of Nicosia*/
+#uniA4{position:absolute; left:615px; top:430px;}/*cheko Masaryk University*/
+#uniA5{position:absolute; left:540px; top:350px;}/*dennma-ku Aarhus University*/
+#uniA6{position:absolute; left:470px; top:440px;}/*France PGSM Business School*/
+#uniA7{position:absolute; left:480px; top:450px;}/*France Rouen Business School*/
+#uniA8{position:absolute; left:480px; top:490px;}/*France Toulouse Business School*/
+#uniA9{position:absolute; left:490px; top:500px;}/*France University of Toulouse ll-Le Mirail*/
+#uniA10{position:absolute; left:530px; top:430px;}/*Germany FH Ludwigshafen*/
+#uniA11{position:absolute; left:545px; top:430px;}/*Germany University of Mannheim Business School*/
+#uniA12{position:absolute; left:620px; top:470px;}/*hangary University of Pecs*/
+#uniA13{position:absolute; left:650px; top:330px;}/*ratobia University of Latvia*/
+#uniA14{position:absolute; left:670px; top:350px;}/*ritoania Vilnius University*/
+#uniA15{position:absolute; left:650px; top:350px;}/*ritoania Vytautas Magnus University*/
+#uniA16{position:absolute; left:590px; top:590px;}/*malta University of Malta*/
+#uniA17{position:absolute; left:505px; top:405px;}/*oranda Amsterdam University of Applied Sciences*/
+#uniA18{position:absolute; left:513px; top:410px;}/*oranda HAN University of Applied Sciences*/
+#uniA19{position:absolute; left:509px; top:390px;}/*oranda Hanze*/
+#uniA20{position:absolute; left:520px; top:300px;}/*norway NHH*/
+#uniA21{position:absolute; left:520px; top:315px;}/*norway Bergen*/
+#uniA22{position:absolute; left:550px; top:300px;}/*norway Oslo*/
+#uniA23{position:absolute; left:400px; top:535px;}/*portogar ISCTE*/
+#uniA24{position:absolute; left:400px; top:520px;}/*porutogar catoril*/
+#uniA25{position:absolute; left:670px; top:490px;}/*ru-mania Bucharest*/
+#uniA26{position:absolute; left:590px; top:470px;}/*surobenia Ljubljana*/
+#uniA27{position:absolute; left:430px; top:530px;}/*Spain Carlos*/
+#uniA28{position:absolute; left:0px; top:0px;}/*sweden Linkoping*/
+#uniA29{position:absolute; left:0px; top:0px;}
+#uniA30{position:absolute; left:0px; top:0px;}
+#uniA31{position:absolute; left:0px; top:0px;}
+#uniA32{position:absolute; left:0px; top:0px;}
+#uniA33{position:absolute; left:0px; top:0px;}
+#uniA34{position:absolute; left:0px; top:0px;}
+#uniA35{position:absolute; left:0px; top:0px;}
+#uniA36{position:absolute; left:0px; top:0px;}
+#uniA37{position:absolute; left:0px; top:0px;}
+#uniA38{position:absolute; left:0px; top:0px;}
+#uniA39{position:absolute; left:0px; top:0px;}
+#uniA40{position:absolute; left:0px; top:0px;}
+#uniA41{position:absolute; left:0px; top:0px;}
+#uniA42{position:absolute; left:0px; top:0px;}
+#uniA43{position:absolute; left:0px; top:0px;}
+#uniA44{position:absolute; left:0px; top:0px;}
+#uniA45{position:absolute; left:0px; top:0px;}
+#uniA46{position:absolute; left:0px; top:0px;}
+#uniA47{position:absolute; left:0px; top:0px;}
+#uniA48{position:absolute; left:0px; top:0px;}
+#uniA49{position:absolute; left:0px; top:0px;}
+#uniA50{position:absolute; left:0px; top:0px;}
+#uniA51{position:absolute; left:0px; top:0px;}
+#uniA52{position:absolute; left:0px; top:0px;}
+#uniA53{position:absolute; left:0px; top:0px;}
+#uniA54{position:absolute; left:0px; top:0px;}
+#uniA55{position:absolute; left:0px; top:0px;}
+#uniA56{position:absolute; left:0px; top:0px;}
+#uniA57{position:absolute; left:0px; top:0px;}
+#uniA58{position:absolute; left:0px; top:0px;}
+#uniA59{position:absolute; left:0px; top:0px;}
+#uniA60{position:absolute; left:0px; top:0px;}
+#uniA61{position:absolute; left:0px; top:0px;}
+#uniA62{position:absolute; left:0px; top:0px;}
+#uniA63{position:absolute; left:0px; top:0px;}
+#uniA64{position:absolute; left:0px; top:0px;}
+#uniA65{position:absolute; left:0px; top:0px;}
+#uniA66{position:absolute; left:0px; top:0px;}
+#uniA67{position:absolute; left:0px; top:0px;}
+#uniA68{position:absolute; left:0px; top:0px;}
+#uniA69{position:absolute; left:0px; top:0px;}
+#uniA70{position:absolute; left:0px; top:0px;}
+#uniA71{position:absolute; left:0px; top:0px;}
+#uniA72{position:absolute; left:0px; top:0px;}
+#uniA73{position:absolute; left:0px; top:0px;}
+#uniA74{position:absolute; left:0px; top:0px;}
+#uniA75{position:absolute; left:0px; top:0px;}
+#uniA76{position:absolute; left:0px; top:0px;}
+#uniA77{position:absolute; left:0px; top:0px;}
+#uniA78{position:absolute; left:0px; top:0px;}
+#uniA79{position:absolute; left:0px; top:0px;}
+#uniA80{position:absolute; left:0px; top:0px;}
+#uniA81{position:absolute; left:0px; top:0px;}
+#uniA82{position:absolute; left:0px; top:0px;}
+#uniA83{position:absolute; left:0px; top:0px;}
+#uniA84{position:absolute; left:0px; top:0px;}
+#uniA85{position:absolute; left:0px; top:0px;}
+#uniA86{position:absolute; left:0px; top:0px;}
+#uniA87{position:absolute; left:0px; top:0px;}
+#uniA88{position:absolute; left:0px; top:0px;}
+#uniA89{position:absolute; left:0px; top:0px;}
+#uniA90{position:absolute; left:0px; top:0px;}
+#uniA91{position:absolute; left:0px; top:0px;}
+#uniA92{position:absolute; left:0px; top:0px;}
+#uniA93{position:absolute; left:0px; top:0px;}
+#uniA94{position:absolute; left:0px; top:0px;}
+#uniA95{position:absolute; left:0px; top:0px;}
+#uniA96{position:absolute; left:0px; top:0px;}
+#uniA97{position:absolute; left:0px; top:0px;}
+#uniA98{position:absolute; left:0px; top:0px;}
+#uniA99{position:absolute; left:0px; top:0px;}
+#uniA100{position:absolute; left:0px; top:0px;}
+#uniA101{position:absolute; left:0px; top:0px;}
+#uniA102{position:absolute; left:0px; top:0px;}
+#uniA103{position:absolute; left:0px; top:0px;}
+#uniA104{position:absolute; left:0px; top:0px;}
+#uniA105{position:absolute; left:0px; top:0px;}
+#uniA106{position:absolute; left:0px; top:0px;}
+#uniA107{position:absolute; left:0px; top:0px;}
+#uniA108{position:absolute; left:0px; top:0px;}
+#uniA109{position:absolute; left:0px; top:0px;}
+#uniA110{position:absolute; left:0px; top:0px;}
+#uniA111{position:absolute; left:0px; top:0px;}
+#uniA112{position:absolute; left:0px; top:0px;}
+#uniA113{position:absolute; left:0px; top:0px;}
+#uniA114{position:absolute; left:0px; top:0px;}
+#uniA115{position:absolute; left:0px; top:0px;}
+#uniA116{position:absolute; left:0px; top:0px;}
+#uniA117{position:absolute; left:0px; top:0px;}
+#uniA118{position:absolute; left:0px; top:0px;}
+#uniA119{position:absolute; left:0px; top:0px;}
+#uniA120{position:absolute; left:0px; top:0px;}
+#uniA121{position:absolute; left:0px; top:0px;}
+#uniA122{position:absolute; left:0px; top:0px;}
+#uniA123{position:absolute; left:0px; top:0px;}
+#uniA124{position:absolute; left:0px; top:0px;}
+#uniA125{position:absolute; left:0px; top:0px;}
+#uniA126{position:absolute; left:0px; top:0px;}
+#uniA127{position:absolute; left:0px; top:0px;}
+#uniA128{position:absolute; left:0px; top:0px;}
+#uniA129{position:absolute; left:0px; top:0px;}
+#uniA130{position:absolute; left:0px; top:0px;}
+#uniA131{position:absolute; left:0px; top:0px;}
+#uniA132{position:absolute; left:0px; top:0px;}
+#uniA133{position:absolute; left:0px; top:0px;}
+#uniA134{position:absolute; left:0px; top:0px;}
+#uniA135{position:absolute; left:0px; top:0px;}
+#uniA136{position:absolute; left:0px; top:0px;}
+#uniA137{position:absolute; left:0px; top:0px;}
+#uniA138{position:absolute; left:0px; top:0px;}
+#uniA139{position:absolute; left:0px; top:0px;}
+#uniA140{position:absolute; left:0px; top:0px;}
+#uniA141{position:absolute; left:0px; top:0px;}
+#uniA142{position:absolute; left:0px; top:0px;}
+#uniA143{position:absolute; left:0px; top:0px;}
+#uniA144{position:absolute; left:0px; top:0px;}
+#uniA145{position:absolute; left:0px; top:0px;}
+#uniA146{position:absolute; left:0px; top:0px;}
+#uniA147{position:absolute; left:0px; top:0px;}
+#uniA148{position:absolute; left:0px; top:0px;}
+#uniA149{position:absolute; left:0px; top:0px;}
+/*uniiconlist End*/
 
 /*Abroad End*/
 
@@ -658,8 +828,7 @@ td{
 	width: 500px;
 	border: solid;
 	border-width: 0px;
-	border-left-width: 10px;
-	border-left-color: #9BBB59;
+	
 }
 .ClubCircleImg{
 	width: 510px;
@@ -697,7 +866,9 @@ td{
 	z-index: 3;
 	top:-73px;
 	left: 10px;
-
+}
+.ClubCircleListCategoryimg{
+	box-shadow: 2px 2px 5px gray;
 }
 .ClubCircleListDifferent{
 	font-size: 20px;
@@ -718,7 +889,7 @@ td{
 }
 .NewProjectTitle{
 	border-bottom: groove;
-	
+	font-size: 50px;
 }
 .NewProjectDescri{
 	margin-bottom: 50px;
