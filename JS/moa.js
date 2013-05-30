@@ -6,14 +6,8 @@ function IDandPassPlease(){
 };
 
 //hoverside
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
+opacity(".Side");
 
-	}
-)
 //hoveropacitychange
 function opacity(selector){
 	$(selector).hover(function(){
