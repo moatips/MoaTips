@@ -1,6 +1,6 @@
-@charset"UTF-8"
-
 body{
+	background-image: url(../img/back2.jpg);
+	background-size: 3000px;
 }
 #Container{
 	width: 1330px;
@@ -44,17 +44,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #f77904;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 	}
 #SidePoint{
 	text-align: center;
@@ -62,17 +52,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border-style: solid;
-	border-left-width: 14px;
-	border-left-color:#f77904;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 }
 #SideContent2{
 	width: 184px;
@@ -90,17 +70,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #080880;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 
 }
 #SideAnswer{	
@@ -109,17 +79,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #080880;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 
 }
 #SideContent3{
@@ -138,17 +98,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #080880;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 }
 
 #SideAbroad{
@@ -157,17 +107,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #080880;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 }
 #SideCircle{
 	text-align: center;
@@ -175,17 +115,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #080880;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 }
 #SideNewProject{
 	text-align: center;
@@ -193,17 +123,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: #080880;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 }
 #SideContent4{
 	width: 184px;
@@ -221,18 +141,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: green;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
-
 }
 #SideBeginner{
 	text-align: center;
@@ -240,17 +149,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: green;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 
 }
 #SideOpinion{
@@ -259,17 +158,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: green;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 
 }
 #SideLogout{
@@ -278,17 +167,7 @@ body{
 	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
-	border: solid;
-	border-left-width: 14px;
-	border-left-color: green;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 1px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
 	padding-left: 8px;
-	background-image : url(../img/column-box-bottom.jpg)	
 
 } 
 /*Topのメインコンテンツ*/
@@ -329,18 +208,18 @@ A:hover { text-decoration:none; color:black; }
 }
 
 .inputdes{
+	color: white;
 	width: 600px;
 	padding: 10px;
-	background-color: #cde0fb;
+	background-color: #724e32;
 	border: 0px;
-	text-shadow: 0px 0px 0px;
+	text-shadow: 2px 2px 5px gray;
 
 }
 .inputbox{
 	color: black;
 	width: 600px;
 	padding:10px;
-	background-color: #EBF9F3;
 }
 .textarea{
 	font-size: 15px;
@@ -839,7 +718,6 @@ td{
 	z-index: -1;
 	left:820px;
 	top: 160px;
-	opacity: 0.7;
 	position: fixed;
 	box-shadow: 2px 2px 5px black;
 	

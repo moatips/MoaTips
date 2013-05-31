@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../CSS/login.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(../img/a9.png)">
+<body style="background-image : url(../img/back1.jpg)">
 <div id="container">
 
 <div id="RuleTitle">
@@ -16,10 +16,11 @@
 
 <div id="RuleQuestionaire">
 <p class="RuleContentTitles">アンケート回答内容</p>
-このサイトはみなさんがアンケートで答え、提供してくださった内容が反映されます。 アンケートでは、特定の個人・団体について、見る人に悪い印象を与えるような表現、特に恣意的と思われる感想など、他の方に迷惑がかかるような内容は控えてください。
-
+このサイトはみなさんがアンケートで答え、提供してくださった内容が反映されます。
+<br>アンケートでは、特定の個人・団体について、見る人に悪い印象を与えるような表現、特に恣意的と思われる感想など、他の方に迷惑がかかるような内容は控えてください。
+<br>
 MOAでアンケートをまとめるときにこのような内容があった場合、ページ掲載を検討します。場合によっては回答者本人に修正、あるいは掲載しないことになります。
-
+<br>
 なお、このサイトに掲載された内容について異議がある場合、必ずサイト管理者にお知らせください。 
 </div>
 
@@ -30,12 +31,24 @@ MOAでアンケートをまとめるときにこのような内容があった�
 
 <div id="RuleAccountManage">
 <p class="RuleContentTitles">アカウント管理</p>
-このサイトの個人アカウントは、基本的にAIUでの学籍番号を使用していただきます。パスワードなどの個人情報は厳重に管理をお願いします。なおこのサイトで登録された個人情報は、サイト運営上有事があった場合の連絡以外、管理者が使うことはありません。 
+このサイトの個人アカウントは、基本的にAIUでの学籍番号を使用していただきます。パスワードなどの個人情報は厳重に管理をお願いします。
+<br>
+なおこのサイトで登録された個人情報は、サイト運営上有事があった場合の連絡以外、管理者が使うことはありません。 
 </div>
 
 </div>
-
+<div class="back">
+<a href=""><img id="LoginButtonAtRule" src="../img/button/login/login2-1.png" width="200px" height="70px"></a>
+<br>
+<a href=""><img id="CAButtonAtRule" src="../img/button/CreateAccount/CA2-1.png" width="200px" height="70px"></a>
+</div>
 
 </div>
+<script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
+<script type="text/javascript">
+imgchange("#LoginButtonAtRule","Login","login");
+imgchange("#CAButtonAtRule","CreateAccount","CA");
+</script>
 </body>
 </html>

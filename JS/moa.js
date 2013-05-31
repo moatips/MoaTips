@@ -2,7 +2,7 @@ function IDandPassPlease(){
 	if (document.getElementById('ID').value='学籍番号記入'){
 		document.getElementById('ID').value='';
 	}
-
+	
 };
 
 //hoverside

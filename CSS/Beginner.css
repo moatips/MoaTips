@@ -1,7 +1,8 @@
-@charset"UTF-8"
-
 body{
 	font-size: larger;
+	text-shadow: 2px 2px 5px gray;
+	background-image: url(../img/back2.jpg);
+	background-size: 3000px;
 }
 
 #container{
@@ -10,14 +11,19 @@ body{
 	margin-right: auto;
 }
 
-h1{
-	font-size: 50px;
+#Welcome{
+	text-shadow: 2px 2px 5px black;
+	font-size: 40px;
 	width: 600px;
+	padding: 20px;
 	margin-left: auto;
 	margin-right:auto;
 	margin-bottom: 50px;
 	margin-top: 50px;
-	color: green;
+	color: white;
+	background-image: url(../img/CircleImg/sky/sky_s1.png);
+	box-shadow: 2px 2px 5px gray;
+	text-align: center;
 }
 #intro{
 	
@@ -34,7 +40,7 @@ h3{
 p{
 	border: solid;
 	border-left-width: 14px;
-	border-left-color:navy;
+	border-left-color:#f88221;
 	border-bottom-width: 0px;
 	border-right-width: 0px;
 	border-top-width: 0px;
