@@ -33,7 +33,7 @@ body{
 	padding-bottom: 8px;
 	border-bottom: solid;
 	border-bottom-width: 2px;
-	border-bottom-color:  #BAD7B6;
+	border-bottom-color:  gray;
 }
 #SideLogo{
 	width: 184px;	
@@ -62,7 +62,7 @@ body{
 	padding-bottom: 8px;
 	border-bottom: solid;
 	border-bottom-width: 2px;
-	border-bottom-color: #BAD7B6;
+	border-bottom-color:gray;
 }
 #SideMypage{
 	text-align: center;
@@ -80,7 +80,6 @@ body{
 	margin-left: 3px;
 	margin-right: 3px;
 	padding-left: 8px;
-
 }
 #SideContent3{
 	width: 184px;
@@ -90,7 +89,7 @@ body{
 	padding-bottom: 8px;
 	border-bottom: solid;
 	border-bottom-width: 2px;
-	border-bottom-color: #BAD7B6;
+	border-bottom-color:gray;
 }
 #SideClass{
 	text-align: center;
@@ -150,7 +149,6 @@ body{
 	margin-left: 3px;
 	margin-right: 3px;
 	padding-left: 8px;
-
 }
 #SideOpinion{
 	text-align: center;
@@ -159,7 +157,6 @@ body{
 	margin-left: 3px;
 	margin-right: 3px;
 	padding-left: 8px;
-
 }
 #SideLogout{
 	text-align: center;
@@ -168,7 +165,6 @@ body{
 	margin-left: 3px;
 	margin-right: 3px;
 	padding-left: 8px;
-
 } 
 /*Topのメインコンテンツ*/
 
@@ -211,12 +207,13 @@ A:hover { text-decoration:none; color:black; }
 	color: white;
 	width: 600px;
 	padding: 10px;
-	background-color: #724e32;
+	background-image:url(../img/CircleImg/sky/sky_s1.png);
 	border: 0px;
-	text-shadow: 2px 2px 5px gray;
+	text-shadow: 2px 2px 3px black;
 
 }
 .inputbox{
+	font-size: 20px;
 	color: black;
 	width: 600px;
 	padding:10px;
