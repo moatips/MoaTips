@@ -29,6 +29,15 @@ function imgchange(selector,imgfoldername,imgtype){
 })
 }
 
+function imgchange2(selector,imgfoldername,imgtype){
+	$(selector).hover(function(){
+	$(this).attr('src','../../img/button/'+imgfoldername+'/'+imgtype+'1-2.png');
+},function(){
+	$(this).attr('src','../../img/button/'+imgfoldername+'/'+imgtype+'1-1.png');
+})
+}
+
+
 //clickslide
 function clickslide(clicker, subject){
 	$(clicker).click(function(){

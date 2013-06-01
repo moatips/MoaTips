@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>パスワードをお忘れの方へ</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="../CSS/login.css" type="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+</head>
+<body>
+<div id="container">
+
+<div id="CATitle">
+よくあることなので
+<br>
+ご安心を。</div>
+<div id="CAContent">
+<div class="inputdes">ID入力</div>
+<div class="inputbox"><input name="ID" id="ID" onclick="IDandPassPlease()"; value="学籍番号入力" size="40">
+</div>
+<div class="inputdes">秘密の質問</div>
+	<div class="inputbox">
+	<select name="SQ" id="SQ">
+		<option value="">お選び下さい</option>
+		<option value="SQ1">ドラえもんの秘密道具で一番好きなものは？</option>
+		<option value="SQ2">サザエさん一家で一番嫌いな人物は？</option>
+	</select>
+	</div>
+<div class="inputdes">秘密の質問の答え</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows="2"></textarea></div>
+※パスワードも秘密の質問の答えも両方お忘れの方は直接MOAの方までご連絡御願いします。
+</div>
+<div class="back">
+<a href=""><img id="LoginButtonAtBeginner" src="../img/button/Login/login1.png" width="200px" height="70px"></a>
+</div>
+
+</div>
+<script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
+<script type="text/javascript">
+imgchange("#LoginButtonAtBeginner","Login","login");
+</script>
+</body>
+</html>

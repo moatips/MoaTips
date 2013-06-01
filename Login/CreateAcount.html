@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<title>アカウント作成</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="../CSS/login.css" type="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+</head>
+<body>
+<div id="container">
+
+<div id="CATitle">
+アカウント作成
+</div>
+<div id="CAContent">
+
+<div class="inputdes">1.　ID設定</div>
+<div class="inputbox"><input name="ID" id="ID" onclick="IDandPassPlease()"; value="学籍番号記入" size="40">
+</div>
+<div class="inputdes">2.　Password設定</div>
+<div class="inputbox"><input type="CreatePassword" name="CreatePassword" size="40"></div>
+<div class="inputdes">3.　確認のためPassword再入力</div>
+<div class="inputbox"><input type="ConfirmPassword" name="ConfirmPassword" size="40"></textarea></div>
+<div class="inputdes">4.　AIU入学西暦年</div>
+	<div class="inputbox">
+	<select class="select" name="EnterYear" id="EnterYear">
+		<option value="">お選びください</option>
+		<option value="2009">2009</option>
+		<option value="2010">2010</option>
+		<option value="2011">2011</option>
+		<option value="2012">2012</option>
+		<option value="2013">2013</option>
+		<option value="2014">2014</option>
+		<option value="2015">2015</option>
+		<option value="2016">2016</option>
+
+	</select>
+	</div>
+<div class="inputdes">5.　Major</div>
+	<div class="inputbox">
+	<select class="select" name="Major" id="Major">
+		<option value="">お選び下さい</option>
+		<option value="Global Business">Global Business</option>
+		<option value="Global Studies">Global Studies</option>
+	</select>
+	</div>
+<div class="inputdes">6.　留学申請時TOEFL</div>
+<div class="inputbox"><input type="text" name="TOEFL" id="TOEFL" size="40"></div>
+<div class="inputdes">7.　留学申請時GPA</div>
+<div class="inputbox"><input type="text" name="GPA" id="GPA" size="40"></div>
+<div class="inputdes">8.　入学前留学経験</div>
+	<div class="inputbox">
+	<select name="ExperienceAbroad" id="ExperienceAbroad">
+		<option value="">お選びください</option>
+		<option value="あり">あり</option>
+		<option value="なし">なし</option>
+	</select>
+	</div>
+<div class="inputdes">9.　秘密の質問</div>
+	<div class="inputbox">
+	<select name="SQ" id="SQ">
+		<option value="">お選び下さい</option>
+		<option value="SQ1">ドラえもんの秘密道具で一番好きなものは？</option>
+		<option value="SQ2">サザエさん一家で一番嫌いな人物は？</option>
+	</select>
+	</div>
+<div class="inputdes">10.　秘密の質問の答え</div>
+<div class="inputbox"><textarea class="textarea" cols="63" rows="2"></textarea></div>
+
+
+
+</div>
+
+<div class="back">
+<div class="inputbox">
+<a href="" target="_blank" id="ReadMe">★利用規約★</a>
+<br>
+<p>必ず利用規約をお読みください。尚、下のアカウント作成ボタンをクリックした段階で利用規約に同意したと見なしますのでご了承ください。</p>
+</div>
+<a href=""><img id="CAButtonAtBeginner" src="../img/button/CreateAccount/CA2-1.png" width="200px" height="70px"></a>
+</div>
+
+</div>
+<script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
+<script type="text/javascript">
+imgchange("#LoginButtonAtBeginner","Login","login");
+imgchange("#CAButtonAtBeginner","CreateAccount","CA");
+</script>
+</body>
+</html>
