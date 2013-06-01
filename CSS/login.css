@@ -2,7 +2,7 @@ body{
 	font-size: larger;
 	text-shadow: 2px 2px 5px black;
 	background-image : url(../img/back2.jpg);
-	background-size: 3000px;
+	background-size: 2000px;
 
 }
 .container{ 
@@ -81,7 +81,7 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-	background-image: url(../img/column-box-bottom.jpg);
+	background-image: url(../img/cbb2.jpg);
 	box-shadow: 2px 2px 5px gray;
 }
 #RuleQuestionaire{

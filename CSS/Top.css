@@ -212,6 +212,20 @@ A:hover { text-decoration:none; color:black; }
 	text-shadow: 2px 2px 3px black;
 
 }
+.DecoUp{
+	color: white;
+	width: 200px;
+	height: 30px;
+	background-image: url(../img/sub-navigation.jpg);
+	position: relative;
+	top: 30px;
+}
+#file{
+	position: absolute;
+	height: 30px;
+	width: 200px;
+	opacity: 0;
+}
 .inputbox{
 	font-size: 20px;
 	color: black;
@@ -688,7 +702,10 @@ td{
 	width: 450px;
 }
 #CultureCirclesTitle{
-	border-bottom-style:groove;
+	text-indent: 30px;
+	background-image: url(../img/side/side4.png);
+	background-repeat: no-repeat;
+	background-position-y: 23px;
 
 }
 #SportsCircles{
@@ -696,7 +713,10 @@ td{
 	float: right;
 }
 #SportsCirclesTitle{
-	border-bottom-style:groove;
+	text-indent: 30px;
+	background-image: url(../img/side/side5.png);
+	background-repeat: no-repeat;
+	background-position-y: 23px;
 
 }
 
@@ -729,9 +749,9 @@ td{
 	text-shadow: 2px 2px 3px black;
 	position: relative;
 	z-index: 3;
-	top:-153px;
+	top:-163px;
 	left: 30px;
-	margin-bottom: -70px;
+	margin-bottom: -90px;
 }
 .ClubCircleListContent{
 	width:530px;
@@ -741,7 +761,7 @@ td{
 .ClubCircleListCategorySet{
 	width: 530px;
 	box-shadow: 2px 2px 5px gray;
-	background-image: url(../img/column-box-bottom.jpg);
+	background-image: url(../img/cbb2.jpg);
 }
 .ClubCircleListCategory{
 	color: white;
