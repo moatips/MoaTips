@@ -992,18 +992,44 @@ td{
 	background-color: lime;
 }
 #RuleContent{
-	background-color: blue;
-}
+	}
 #RuleQuestionaire{
-	background-color: aqua;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(../img/column-box-bottom.jpg);
+	box-shadow: 2px 2px 5px gray;
 }
 #RuleOpenInfoManage{
-	background-color: gray;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(../img/column-box-bottom.jpg);
+	box-shadow: 2px 2px 5px gray;
 }
 #RuleAccountManage{
-	background-color: green;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(../img/column-box-bottom.jpg);
+	margin-bottom: 30px;
+	box-shadow: 2px 2px 5px gray;
 }
 .RuleContentTitles{
-	background-color: olive;
+	font-size: 25px;
+	width: 280px;
+	height: 40px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	background-color: #4b3423;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px gray;
+	position: relative;
+	top: -10px;
+	left: -30px;
 }
 /*Rule End*/
