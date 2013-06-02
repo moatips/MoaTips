@@ -85,11 +85,11 @@ Point:
 </p>
 
 <div class="AnswerProject">
-<a href=""><img class="AnswerProjectimg" src="../img/button/Answer/answer2-1.png"></a>
+<a href=""><img class="AnswerProjectimg" src="../img/button/Answer/answer1-1.png"></a>
 </div>
 
 <div class="SeeProject">
-<img class="SeeProjectimg" src="../img/button/SeeTips/seetips2-1.png">
+<img class="SeeProjectimg" src="../img/button/SeeTips/seetips1-1.png">
 <div id="ProjectListBox">
 <a href="" class="project">MoaTips</a>
 </div>
@@ -106,8 +106,17 @@ Point:
 $("#ProjectListBox").hide();
 clickslide(".SeeProjectimg","#ProjectListBox");
 opacity(".project");
-imgchange(".SeeProjectimg","SeeTips","seetips");
-imgchange(".AnswerProjectimg","Answer","answer");
+$(".AnswerProjectimg").hover(function(){
+	$(this).attr('src','../img/button/Answer/answer1-2.png');
+},function(){
+	$(this).attr('src','../img/button/Answer/answer1-1.png');	
+});
+
+$(".SeeProjectimg").hover(function(){
+	$(this).attr('src','../img/button/SeeTips/seetips1-2.png');
+},function(){
+	$(this).attr('src','../img/button/SeeTips/seetips1-1.png');	
+});
 </script>
 </body>
 </html>

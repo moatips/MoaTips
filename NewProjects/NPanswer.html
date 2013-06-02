@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../CSS/Top.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(../img/a9.png)">
+<body>
 <div id="Container">
 
 <div id="Sidebar">
@@ -105,7 +105,7 @@ Point:
 	<div class="inputbox"><textarea class="textarea" cols="63" rows="15"></textarea></div>
 	<div class="inputdes">10.　代表者の名前・連絡先</div>
 <div class="inputbox"><textarea class="textarea" cols="63" rows="3"></textarea></div>
-	<input type="image" id="OpinionSubmitimg" src="../img/button/FinalAnswer/FinalAnswer2-1.png" width="300px">
+	<input type="image" id="OpinionSubmitimg" src="../img/button/FinalAnswer/FinalAnswer1-1.png" width="300px">
 </div>
 
 
@@ -121,15 +121,11 @@ Point:
 <script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
 opacity(".checkbox");
-imgchange("#OpinionSubmitimg","FinalAnswer","finalanswer");
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
-
-	}
-)
+$("#OpinionSubmitimg").hover(function(){
+	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-2.png');
+},function(){
+	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-1.png');	
+});
 </script>
 </body>
 </html>
