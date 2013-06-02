@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../CSS/Top.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(../img/a9.png)">
+<body>
 <div id="Container">
 
 <div id="Sidebar">
@@ -69,8 +69,9 @@ Point:
 </div>
 
 <div id="MainContent">
-<div id="Head">
-まいぺーじ。
+
+<div id="HeadMypage">
+Mypage
 </div>
 
 <div id="AccountInfo">
@@ -78,35 +79,117 @@ Point:
 アカウント
 </div>
 <div id="AccountContent">
-ID:
+<table cellpadding="20px">
+<tr><td>ID:</td><td>それぞれの情報がHere</td></tr>
+<tr><td>Point:</td><td>それぞれの情報がHere</td></tr>
+<tr><td>AIU入学年:</td><td>それぞれの情報がHere</td></tr>
+<tr><td>Major:</td><td>それぞれの情報がHere</td></tr>
+<tr><td>TOEFL:</td><td>それぞれの情報がHere</td></tr>
+<tr><td>GPA:</td><td>それぞれの情報がHere</td></tr>
+<tr><td>留学経験:</td><td>それぞれの情報がHere</td></tr>
+</table>
 <br>
-AIU入学年:
 <br>
-Major:
 <br>
-TOEFL:
-<br>
-GPA:
-<br>
-留学経験:
 </div>
 </div>
 
 <div id="buy">
 <div id="BuyTitle">
-購入情報
+購入したTips
 </div>
 <div id="BuyContent">
-購入情報→授業、留学
+<div class="AnswerTipsCategoryTitle">
+授業
 </div>
+<div class="AnswerTipsCategoryContent">
+<a href="" class="AnswerTipsCategoryContentList">授業名</a>
+</div>
+
+<div class="AnswerTipsCategoryTitle">
+留学
+</div>
+<div class="AnswerTipsCategoryContent">
+大学名
+</div>
+
+<div class="AnswerTipsCategoryTitle">
+サークル
+</div>
+<div class="AnswerTipsCategoryContent">
+サークル名
+</div>
+
+<div class="AnswerTipsCategoryTitle">
+新企画
+</div>
+<div class="AnswerTipsCategoryContent">
+企画名
+</div>
+
+</div>
+
 </div>
 
 <div id="answer">
 <div id="AnswerTitle">
-回答情報
+回答したTips
 </div>
 <div id="AnswerContent">
-回答情報→授業、留学、サークル、新企画
+
+<div class="AnswerTipsCategoryTitle">
+授業
+</div>
+<div class="AnswerTipsCategoryContent">
+授業名
+</div>
+
+<div class="AnswerTipsCategoryTitle">
+留学
+</div>
+<div class="AnswerTipsCategoryContent">
+大学名
+</div>
+
+<div class="AnswerTipsCategoryTitle">
+サークル
+</div>
+<div class="AnswerTipsCategoryContent">
+サークル名
+</div>
+
+<div class="AnswerTipsCategoryTitle">
+新企画
+</div>
+<div class="AnswerTipsCategoryContent">
+企画名
+</div>
+</div>
+</div>
+
+
+
+
+<div id="Blank">
+<div id="BlankTitle">
+明日やろうは
+<br>
+馬鹿野郎。
+</div>
+<div id="BlankContent">
+今、「明日やろう」って思っただろ?
+どうせ明日も「やっぱり明日やろう」って思うんだろ?
+そんなお前は、馬鹿野郎さ。
+まぁ、今すぐできないのがオマエだもんな?
+いーっつもそうやって、嫌な事は後回し。
+後で困るのが自分だってわかってるのにな…。
+結局、「どうしよう！」「あの時やってれば…」って喚くんだろ?全く…情けない奴だよな、オマエってやつはよ。
+明日やろう?馬鹿やろぉぉぉっ!
+でも、俺は知ってるんだぜ…?
+「今の自分を変えたい…」って思っていることを。
+本当はやればできる奴なんだってことを。
+だったら、今すぐ自分を変えてみることから始めてみればいいじゃんよ。
+俺は、オマエを応援してる。誰よりも…な。
 </div>
 </div>
 
@@ -116,6 +199,7 @@ GPA:
 <script type="text/javascript" src="../JS/jquery.js"></script>
 <script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
+opacity(".AnswerTipsCategoryContentList");
 </script>
 </body>
 </html>

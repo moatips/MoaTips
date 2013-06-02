@@ -176,20 +176,6 @@ body{
 	z-index: 1;	
 	text-shadow: 2px 2px 5px gray;
 }
-#Head{
-	font-size: 50px;
-	color: black;
-	text-align: center;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	border-style: groove;
-	border-width: 0px;
-	padding-left: 0px;	
-	padding-bottom: 0px;
-	box-shadow: 0px 0px 5px gray;
-}
 
 a:link{	text-decoration: none;color: black;}
 A:visited { text-decoration:none; color:black; }
@@ -251,14 +237,117 @@ td{
 	
 }
 /*Mypage Start*/
+#HeadMypage{
+	width: 600px;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px black;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding: 10px;	
+	background-color: #4b3423;
+	box-shadow: 2px 2px 10px gray;
+}
 
+
+#buy{
+	text-align: center;
+	width: 442px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 3px;
+	padding-bottom: 30px;
+	border: solid;
+	border-left-width: 0px;
+	border-left-color: #ef741b;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	float: left;
+	background-image: url(../img/body.png);
+	background-size: 450px;
+
+}
+#BuyTitle{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+	border-color: gray;
+	color: #67462f;
+	text-shadow: 2px 2px 5px gray;
+
+}
+#BuyContent{
+	
+}
+#answer{
+	text-align: center;
+	width: 442px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 20px;
+	padding-bottom: 30px;
+	border: solid;
+	border-left-width: 0px;
+	border-left-color: #ef741b;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #ef741b;
+	padding-left: 8px;
+	float: left;
+	background-image: url(../img/body.png);
+	
+	background-size: 450px;
+
+}
+#AnswerTitle{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+	border-color: gray;
+	color: #67462f;
+	text-shadow: 2px 2px 5px gray;
+}
+#AnswerContent{
+	
+}
+.AnswerTipsCategoryTitle{
+	text-indent: 80px;
+	text-align: left;
+	text-decoration: underline;
+}
+.AnswerTipsCategoryContent{
+	font-size: 17px;
+	text-indent: 100px;
+	text-align: left;	
+}
 
 #AccountInfo{
 	text-align: center;
-	width: 250px;
-	height: 500px;
-	margin-top: 3px;
-	margin-left: 3px;
+	width: 442px;
+	margin-top: 30px;
+	margin-left: 30px;
 	margin-right: 3px;
 	border: solid;
 	border-left-width: 0px;
@@ -271,25 +360,38 @@ td{
 	border-bottom-color: #ef741b;
 	padding-left: 8px;
 	float: left;
-	box-shadow: 0px 0px 5px gray;
+	background-image: url(../img/footer-quick-links-bottom.png);
+	background-size: 450px;
 	
 }
 #AccountTitle{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 30px;
-	color: black;
+	color: white;
+	margin-top: 20px;
 	margin-bottom: 20px;
-
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+	border-color: gray;
+	color: #67462f;
+	text-shadow: 2px 2px 5px gray;
 }
 #AccountContent{
+	margin-left: 10px;
+	margin-right: 10px;
 	text-align: left;
 }
-#buy{
+
+#Blank{
 	text-align: center;
 	width: 442px;
-	height: 500px;
-	margin-top: 3px;
-	margin-left: 3px;
+	height: 700px;
+	margin-top: 30px;
+	margin-left: 30px;
 	margin-right: 3px;
+	margin-bottom: 20px;
 	border: solid;
 	border-left-width: 0px;
 	border-left-color: #ef741b;
@@ -297,51 +399,35 @@ td{
 	border-right-width: 0px;
 	border-top-width: 0px;
 	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
+	border-right-color: #080880;
 	border-bottom-color: #ef741b;
 	padding-left: 8px;
 	float: left;
-	box-shadow: 0px 0px 5px gray;
+	background-image: url(../img/footer-quick-links-bottom.png);
+	background-repeat: no-repeat;
+	background-size: 450px;
 	
 }
-#BuyTitle{
+#BlankTitle{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 30px;
-	color: black;
+	color: white;
+	margin-top: 20px;
 	margin-bottom: 20px;
-
-}
-#BuyContent{
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+	border-color: gray;
+	color: #67462f;
+	text-shadow: 2px 2px 5px gray;
 	
 }
-#answer{
-	text-align: center;
-	width: 250px;
-	height: 500px;
-	margin-top: 3px;
-	margin-left: 3px;
-	margin-right: 3px;
-	border: solid;
-	border-left-color: #080880;
-	border-bottom-width: 0px;
-	border-right-width: 0px;
-	border-top-width: 0px;
-	border-left-width: 0px;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #ef741b;
-	padding-left: 8px;
-	float: left;
-	box-shadow: 0px 0px 5px gray;
-}
-#AnswerTitle{
-	font-size: 30px;
-	color: black;
-	margin-bottom: 20px;
-}
-#AnswerContent{
+#BlankContent{
+	margin-left: 20px;
+	text-align: left;
 	
 }
-
 /*Mypage End*/
 
 /*Answer Start*/

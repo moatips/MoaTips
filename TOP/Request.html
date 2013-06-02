@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../CSS/Top.css" type="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 </head>
-<body style="background-image : url(../img/a9.png)">
+<body>
 <div id="Container">
 
 <div id="Sidebar">
@@ -87,7 +87,7 @@ Point:
 <div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
 <div class="inputdes">MoaTipsのどこを改善してほしいですか？</div>
 <div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
-<div class="inputdes">追加してほしい機能 or 情報はありましたか？是非教えてください。</div>
+<div class="inputdes">追加してほしい機能や情報はありましたか？<br>是非教えてください。</div>
 <div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
 <div class="inputdes">その他に何か意見がありましたらご記入下さい。</div>
 <div class="inputbox"><textarea class="textarea" cols="63" rows="5"></textarea></div>
@@ -104,16 +104,8 @@ Point:
 
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
-
-	}
-)
-
 $("#OpinionSubmitimg").hover(function(){
 	$(this).attr('src','../img/button/FinalAnswer/FinalAnswer1-2.png');
 },function(){
