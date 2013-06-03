@@ -64,35 +64,169 @@ Point:
 <a href="">
 <div id="SideLogout" class="Side">
 ログアウト</div></a>
+
 </div>
 </div>
 
 <div id="MainContent">
 
-<div id="TopTitle">
-あなたの答えでできてます。MoaTips。
-</div>
-<div id="TopBeginner">
-Beginner</div>
-<div id="TopAbroad">
-Abroad</div>
-<div id="TopCircle">
-Circle</div>
-<div id="TopNewProject">
-NewProject</div>
+<div id="TopHead">
+あなたの答えで出来てます、MoaTips
 </div>
 
+<div id="TopClass">
+<div id="TopClassTitle">
+授業
+</div>
+<div id="TopClassContent">
+<a href="">
+<div id="TopBE" class="TopPanel">
+BE
+</div>
+</a>
+<a href="">
+<div id="TopGB" class="TopPanel">
+GB
+</div>
+</a>
+<a href="">
+<div id="TopGS" class="TopPanel">
+GS
+</div>
+</a>
+</div>
+</div>
+
+<div id="TopAbroad">
+<div id="TopAbroadTitle">
+留学
+</div>
+<div id="TopAbroadContent">
+<a href="">
+<div id="TopEurope" class="TopPanel">
+Europe
+</div>
+</a>
+<a href="">
+<div id="TopAfrica" class="TopPanel">
+Africa
+</div>
+</a>
+<a href="">
+<div id="TopEastAsia" class="TopPanel">
+Asia1
+</div>
+</a>
+
+<a href="">
+<div id="TopSEAO" class="TopPanel">
+Asia2
+</div>
+</a>
+
+<a href="">
+<div id="TopNorthAmerica" class="TopPanel">
+NorthAmerica
+</div>
+</a>
+
+<a href="">
+<div id="TopSouthAmerica" class="TopPanel">
+SouthAmerica
+</div>
+</a>
+
+
+</div>
+</div>
+
+<div id="TopCircle">
+<div id="TopCircleTitle">
+サークル
+</div>
+<div id="TopCircleContent">
+<a href="">
+<div id="TopCulture" class="TopPanel">
+文化部
+</div>
+</a>
+<a href="">
+<div id="TopSports" class="TopPanel">
+運動部
+</div>
+</a>
+
+</div>
+</div>
+
+
+
+<div id="TopNewProject">
+<div id="TopNewProjectTitle">
+新企画
+</div>
+<div id="TopNewProjectContent">
+<div class="TopNewProjectContent">
+<a href="" id="TopNewProjectList"class="TopPanel">企画名Here</a>
+</div>
+
+</div>
+
+</div>
+
+<div id="TopInvite">
+<div id="TopInviteTitle">
+MOA
+<br>
+メンバー募集中
+</div>
+<div id="TopInviteContent">
+現在、私たちMOAはこのMoaTipsを共に運営、管理してくれる人員募集
+<br>
+を行っています。
+<br>
+Webサイト作りに興味のある人、
+<br>
+デザインに興味のある人、
+<br>
+プログラミングに興味のある人、
+<br>
+経験の有無は問いません。
+<br>
+熱意さえあれば私たちは常にあなたを
+<br>
+歓迎しています。
+<br>
+私たちと共に
+<br>
+あなたのリアルを充実させませんか？
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
 </div>
 <script type="text/javascript" src="../JS/jquery.js"></script>
+<script type="text/javascript" src="../JS/moa.js"></script>
 <script type="text/javascript">
-$(".Side").hover(
-	function(){
-		$(this).css('background-color','#e3fadb');
-	},function(){
-		$(this).css('background-color','white');
+opacity(".AnswerTipsCategoryContentList");
 
-	}
-)
+$(".TopPanel").hover(function(){
+	$(this).css('color','white');
+	$(this).css('background','#644229');
+},function(){
+	$(this).css('color','#644229');
+	$(this).css('background','');
+
+})
 </script>
 </body>
 </html>
