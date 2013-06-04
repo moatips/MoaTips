@@ -30,11 +30,16 @@ public class HtmlCreate {
             }
             if(type==1){
                 HtmlFile.createhtmlfileclass1(classname,type);
+                System.out.println("HTMLファイル作成完了です。");
             }else if(type==2){
                 HtmlFile.createhtmlfileclass2(classname,type);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else if(type==9){
                 HtmlFile.createhtmlfileclass1(classname,1);
                 HtmlFile.createhtmlfileclass2(classname,2);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else{
                 
             }
@@ -58,17 +63,27 @@ public class HtmlCreate {
             
             if(type==1){
                 HtmlFile.createhtmlfileabroad1(uniname,type);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else if(type==2){
                 HtmlFile.createhtmlfileabroad2(uniname,type);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else if(type==3){
                 HtmlFile.createhtmlfileabroad3(uniname,type);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else if(type==4){
                 HtmlFile.createhtmlfileabroad4(uniname,type);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else if(type==9){
                 HtmlFile.createhtmlfileabroad1(uniname,1);
                 HtmlFile.createhtmlfileabroad2(uniname,2);
                 HtmlFile.createhtmlfileabroad3(uniname,3);
                 HtmlFile.createhtmlfileabroad4(uniname,4);
+                System.out.println("HTMLファイル作成完了です。");
+
             }else{
                 System.out.println("正しい値を入れてください。最初からやり直しだよ＾＾");
         }
@@ -81,6 +96,9 @@ public class HtmlCreate {
             }catch(Exception e){
                 System.out.println("正しい値を入れてください。最初からやり直しだよ＾＾");
             }
+            HtmlFile.createhtmlfilecircle(circlename);
+            System.out.println("HTMLファイル作成完了です。");
+
             
         }else if(category==4){
             System.out.println("企画名を入れてください");
@@ -90,6 +108,9 @@ public class HtmlCreate {
             }catch(Exception e){
                 System.out.println("正しい値を入れてください。最初からやり直しだよ＾＾");
             }
+            HtmlFile.createhtmlfileproject(projectname);
+            System.out.println("HTMLファイル作成完了です。");
+
            
         }else{
             System.out.println("正しい値を入れてね？ふざけてんの？");
