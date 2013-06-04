@@ -690,6 +690,7 @@ td{
 }
 #TopCircleContent{
 	text-decoration: underline;
+	color: #644229;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align: left;
@@ -755,6 +756,7 @@ td{
 	text-shadow: 2px 2px 5px gray;
 }
 #TopNewProjectContent{
+	color: #644229;
 	text-decoration: underline;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -903,6 +905,10 @@ td{
 	
 }
 #TopRuleContent{
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
 	
 }
 
