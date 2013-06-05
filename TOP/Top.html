@@ -81,17 +81,17 @@ Point:
 <div id="TopClassContent">
 <a href="">
 <div id="TopBE" class="TopPanel">
-BE
+-BE-
 </div>
 </a>
 <a href="">
 <div id="TopGB" class="TopPanel">
-GB
+-GB-
 </div>
 </a>
 <a href="">
 <div id="TopGS" class="TopPanel">
-GS
+-GS-
 </div>
 </a>
 </div>
@@ -104,35 +104,35 @@ GS
 <div id="TopAbroadContent">
 <a href="">
 <div id="TopEurope" class="TopPanel">
-Europe
+-Europe-
 </div>
 </a>
 <a href="">
 <div id="TopAfrica" class="TopPanel">
-Africa
+-Africa-
 </div>
 </a>
 <a href="">
 <div id="TopEastAsia" class="TopPanel">
-Asia1
+-Asia1-
 </div>
 </a>
 
 <a href="">
 <div id="TopSEAO" class="TopPanel">
-Asia2
+-Asia2-
 </div>
 </a>
 
 <a href="">
 <div id="TopNorthAmerica" class="TopPanel">
-NorthAmerica
+-NorthAmerica-
 </div>
 </a>
 
 <a href="">
 <div id="TopSouthAmerica" class="TopPanel">
-SouthAmerica
+-SouthAmerica-
 </div>
 </a>
 
@@ -142,43 +142,26 @@ SouthAmerica
 
 
 <div id="TopBeginner">
+<a href="">
 <div id="TopBeginnerTitle">
 初めての方へ
 </div>
-<div id="TopBeginnerContent">
-このサイトはAIUに関する情報を出し合い
-<br>
-共有するためのものです。
-<br>
-授業、留学、サークル、新企画。
-<br>４つのページであなたの必要な情報が
-<br>見つけられます。 
-<br>
-なにから始めていいのやら、
-というあなた。
-まずはアンケートにお答えください。
-<br>
-あなたの答えが、
-<br>
-みんなが見るTipsとなります。
-<br>
-答えていただいた内容は
-<br>私達MOAが集めてまとめ、
-<br>
-ページに載せていきます。
-<br>
-アンケートに答えるごとにポイントがもらえ、
-そのポイントでこのサイトのTipsを
-<br>
-“買う”ことができます。
-<br>
-あなたの情報を必要としている人がいます。
-<br>
-あなたの知っていることを教えてください。 
-
-</div>
+</a>
 </div>
 
+<div id="TopRule">
+<div id="TopRuleTitle">
+Rule
+</div>
+<div id="TopRuleContent">
+<table width="420px">
+<tr><td>1.</td><td>適当に回答しない</td></tr>
+<tr><td>2.</td><td>恣意的な回答は避ける</td></tr>
+<tr><td>3.</td><td>異議があるときはご意見板へ</td></tr>
+<tr><td>4.</td><td>AIU生以外にサイトを公開しない</td></tr>
+</table>
+</div>
+</div>
 
 <div id="TopCircle">
 <div id="TopCircleTitle">
@@ -187,12 +170,12 @@ SouthAmerica
 <div id="TopCircleContent">
 <a href="">
 <div id="TopCulture" class="TopPanel">
-文化部
+-文化部-
 </div>
 </a>
 <a href="">
 <div id="TopSports" class="TopPanel">
-運動部
+-運動部-
 </div>
 </a>
 
@@ -206,7 +189,8 @@ SouthAmerica
 新企画
 </div>
 <div id="TopNewProjectContent">
-<a href="" id="TopNewProjectList"class="TopPanel">企画名Here</a>
+<a href="" id="TopNewProjectList"class="TopPanel">-閲覧-</a>
+<a href="" id="TopNewProjectList"class="TopPanel">-回答-</a>
 </div>
 
 </div>
@@ -219,7 +203,9 @@ MOA
 メンバー募集中
 </div>
 <div id="TopInviteContent">
-現在、私たちMOAはこのMoaTipsを共に運営、管理してくれる
+現在、私たちMOAはこのMoaTipsを
+<br>
+共に運営、管理してくれる
 <br>
 人員を募集しています。
 <br>
@@ -243,21 +229,6 @@ Webサイト作りに興味のある人、
 </div>
 
 
-<div id="TopRule">
-<div id="TopRuleTitle">
-Rule
-</div>
-<div id="TopRuleContent">
-<table width="420px">
-<tr><td>1.</td><td>適当に回答しない</td></tr>
-<tr><td>2.</td><td>恣意的な回答は避ける</td></tr>
-<tr><td>3.</td><td>異議があるときはご意見板へ</td></tr>
-<tr><td>4.</td><td>AIU生以外にサイトを公開しない</td></tr>
-</table>
-　
-　
-</div>
-</div>
 
 
 
@@ -284,6 +255,13 @@ $(".TopPanel").hover(function(){
 	$(this).css('background','');
 
 })
+
+$("#TopBeginner").hover(function(){
+	$(this).css('box-shadow','2px 2px 10px black');
+},function(){
+	$(this).css('box-shadow','2px 2px 5px gray');
+});
+
 </script>
 </body>
 </html>
